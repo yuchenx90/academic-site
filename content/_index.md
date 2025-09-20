@@ -3,7 +3,7 @@ title: "Home"
 type: landing
 
 sections:
-  - block: about
+  - block: markdown
     id: bio
     content:
       title: "Biography"
