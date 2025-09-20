@@ -1,85 +1,75 @@
-name: Build & Deploy (Hugo → GitHub Pages)
+---
+title: "Home"
+type: landing
 
-on:
-  push:
-    branches: [main]
+sections:
+  # 全站样式（必须放在第一个 section）
+  - block: markdown
+    id: style
+    content:
+      title: ""
+      text: |-
+        <style>
+          /* 放宽主题默认容器宽度到 ~1100px，并在小屏保留两侧留白 */
+          :root{ --site-max:1100px; }
+          .hb-section .container,
+          .container,
+          .prose,
+          .max-w-prose,
+          .max-w-3xl,
+          .max-w-4xl {
+            max-width: min(var(--site-max), 92vw) !important;
+          }
+        </style>
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+  # Bio
+  - block: markdown
+    id: bio
+    content:
+      title: ""   # 不显示“Biography”标题
+      text: |-
+        <div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap;">
+          <img src="img/yuchen.jpg" alt="Yuchen Xu" style="width:140px; border-radius:50%; flex:0 0 auto;">
+          <div style="flex:1; min-width:280px;">
+            Dr. Yuchen Xu is an Assistant Professor (Senior Lecturer) in Finance at UNSW Business School. Previously, she was an Assistant Professor at Peking University HSBC Business School. Dr. Xu completed her undergraduate and postgraduate studies in Paris, where she received dual master's degrees in Financial Engineering (2014) and Economic Psychology (2015). After that, she obtained her Ph.D in Finance from the University of Hong Kong (2020). Her research interests span across quantitative financial history and empirical corporate finance. She places special emphasis on identifying the foundational factors that influence the enduring development of finance, in particular at its genesis. Her findings have been published in prestigious international journals, including the <em>Journal of Finance</em>, the <em>Journal of Financial Economics</em>, and <em>Management Science</em> among others.
+          </div>
+        </div>
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  # Publications
+  - block: markdown
+    id: publications
+    content:
+      title: "Publications"
+      text: |-
+        - Paper 1. <em>Journal of Finance</em>, 2023.  
+        - Paper 2. <em>Journal of Financial Economics</em>, 2022.  
+        - Paper 3. <em>Management Science</em>, 2021.  
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: true
-          fetch-depth: 0
+  # Working Papers
+  - block: markdown
+    id: working-papers
+    content:
+      title: "Working Papers"
+      text: |-
+        - Title 1. Under review at [journal].  
+        - Title 2. Draft in progress.  
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
+  # Funds & Awards
+  - block: markdown
+    id: funds-awards
+    content:
+      title: "Funds & Awards"
+      text: |-
+        - 2024. Awarded XYZ Research Grant.  
+        - 2023. Received Best Paper Prize at ABC Conference.  
 
-      - name: Setup Go (for Hugo modules)
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.21'
-
-      # 强制清缓存并刷新 Hugo 模块（避免伪版本/缓存问题）
-      - name: Refresh Hugo modules (force clean)
-        env:
-          HUGO_MODULE_PROXY: direct
-          GOPROXY: direct
-          GONOSUMDB: github.com/HugoBlox/*
-          GOPRIVATE: github.com/HugoBlox/*
-        run: |
-          rm -rf "$HOME/.cache/hugo_cache/"
-          rm -rf "$HOME/go/pkg/mod/"
-          hugo mod clean
-          hugo mod tidy
-          hugo version
-
-      # Node & CSS 工具链（Tailwind / PostCSS / Autoprefixer）
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Create local package.json & install CSS toolchain
-        run: |
-          test -f package.json || npm init -y
-          npm install tailwindcss@3 postcss@8 postcss-cli@10 autoprefixer@10
-          npx update-browserslist-db@latest --yes || true
-
-      - name: Build site
-        env:
-          HUGO_MODULE_PROXY: direct
-          GOPROXY: direct
-        run: |
-          echo "Hugo Cache Dir: $(hugo config | grep cachedir || true)"
-          hugo --gc --minify --enableGitInfo
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  # Teaching
+  - block: markdown
+    id: teaching
+    content:
+      title: "Teaching"
+      text: |-
+        - UNSW FINS5513: Corporate Finance.  
+        - UNSW FINS5566: Empirical Asset Pricing.  
+        - PKU HSBC: Financial Markets (2019–2023).  
+---
