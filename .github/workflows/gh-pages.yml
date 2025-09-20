@@ -46,7 +46,8 @@ jobs:
           rm -rf $HOME/.cache/hugo_cache/
           rm -rf $HOME/go/pkg/mod/
           hugo mod clean
-          hugo mod tidy -v
+          hugo mod tidy
+          hugo version
 
       # Wowchemy/Hugo Blox 可能需要 PostCSS/Tailwind
       - name: Setup Node (for PostCSS)
