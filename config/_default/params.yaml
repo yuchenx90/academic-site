@@ -1,21 +1,15 @@
 # SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-# Appearance
 appearance:
   mode: system
   color: indigo
 
-# SEO
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: ''
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -32,25 +26,22 @@ header:
     enable: true
     block: 'navbar'
     fixed_to_top: true
-    show_search: true
-    show_theme_chooser: true
+    show_search: false        # 单页站点一般不需要站内搜索
+    show_theme_chooser: false
     logo:
-      text: 'Yuchen XU'
+      text: 'Yuchen XU'       # ← 左上角名称
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Yuchen Xu. All rights reserved.'  # ← 版权署名
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false            # 你不想展示开源许可就设为 false
 
-# Localization
+# Localization（日期样式可按喜好调整）
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2006-01-02'    # ISO 风格：YYYY-MM-DD
+  time_format: '15:04'         # 24 小时制
 
 # Site features
 features:
