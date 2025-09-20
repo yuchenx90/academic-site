@@ -29,7 +29,24 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      # Wowchemy/Academic 用到 PostCSS；这个步骤让它可用
+      # Wowchemy/Hugo Blox 依赖 Go module（用于主题与插件）
+      - name: Setup Go (for Hugo modules)
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      # 避免 Go 代理的伪版本时间戳报错 → 直连并刷新模块
+      - name: Refresh Hugo modules (bypass Go proxy)
+        env:
+          GOPROXY: direct
+          GONOSUMDB: github.com/HugoBlox/*
+          GOPRIVATE: github.com/HugoBlox/*
+        run: |
+          hugo mod clean
+          hugo mod get -u ./...
+          hugo mod tidy
+
+      # PostCSS / Tailwind（Wowchemy 会按需使用）
       - name: Setup Node (for PostCSS)
         uses: actions/setup-node@v4
         with:
@@ -43,6 +60,7 @@ jobs:
 
       - name: Build site
         run: |
+          echo "Hugo Cache Dir: $(hugo config | grep cachedir || true)"
           hugo --gc --minify --enableGitInfo
 
       - name: Upload artifact
