@@ -29,24 +29,26 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      # Wowchemy/Hugo Blox 依赖 Go module（用于主题与插件）
+      # Go 用于拉取 Hugo 模块
       - name: Setup Go (for Hugo modules)
         uses: actions/setup-go@v5
         with:
           go-version: '1.21'
 
-      # 避免 Go 代理的伪版本时间戳报错 → 直连并刷新模块
-      - name: Refresh Hugo modules (bypass Go proxy)
+      # 🔧 关键：强制清理缓存并直连拉取模块，避免伪版本时间戳报错
+      - name: Refresh Hugo modules (force clean)
         env:
+          HUGO_MODULE_PROXY: direct
           GOPROXY: direct
           GONOSUMDB: github.com/HugoBlox/*
           GOPRIVATE: github.com/HugoBlox/*
         run: |
+          rm -rf $HOME/.cache/hugo_cache/
+          rm -rf $HOME/go/pkg/mod/
           hugo mod clean
-          hugo mod get -u ./...
-          hugo mod tidy
+          hugo mod tidy -v
 
-      # PostCSS / Tailwind（Wowchemy 会按需使用）
+      # Wowchemy/Hugo Blox 可能需要 PostCSS/Tailwind
       - name: Setup Node (for PostCSS)
         uses: actions/setup-node@v4
         with:
@@ -59,6 +61,9 @@ jobs:
           fi
 
       - name: Build site
+        env:
+          HUGO_MODULE_PROXY: direct
+          GOPROXY: direct
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir || true)"
           hugo --gc --minify --enableGitInfo
