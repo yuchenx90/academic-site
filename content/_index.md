@@ -9,14 +9,15 @@ sections:
     content:
       title: ""   # 不显示“Biography”字样
       text: |-
-        <style>
-          /* 放宽所有 markdown 区块的容器宽度 */
-          .prose{max-width:min(1100px,92vw)!important}
-        </style>
-        <div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap;">
-          <img src="img/yuchen.jpg" alt="Yuchen Xu" style="width:140px; border-radius:50%; flex:0 0 auto;">
-          <div style="flex:1; min-width:280px;">
-            Dr. Yuchen Xu is an Assistant Professor (Senior Lecturer) in Finance at UNSW Business School. Previously, she was an Assistant Professor at Peking University HSBC Business School. Dr. Xu completed her undergraduate and postgraduate studies in Paris, where she received dual master's degrees in Financial Engineering (2014) and Economic Psychology (2015). After that, she obtained her Ph.D in Finance from the University of Hong Kong (2020). Her research interests span across quantitative financial history and empirical corporate finance. She places special emphasis on identifying the foundational factors that influence the enduring development of finance, in particular at its genesis. Her findings have been published in prestigious international journals, including the <em>Journal of Finance</em>, the <em>Journal of Financial Economics</em>, and <em>Management Science</em> among others.
+        <!-- Full-bleed wrapper：拉满到 100vw，再在里面设最大宽度 -->
+        <div style="width:100vw; position:relative; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw;">
+          <div style="margin:0 auto; width:min(1100px,92vw);">
+            <div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap;">
+              <img src="img/yuchen.jpg" alt="Yuchen Xu" style="width:140px; border-radius:50%; flex:0 0 auto;">
+              <div style="flex:1; min-width:280px;">
+                Dr. Yuchen Xu is an Assistant Professor (Senior Lecturer) in Finance at UNSW Business School. Previously, she was an Assistant Professor at Peking University HSBC Business School. Dr. Xu completed her undergraduate and postgraduate studies in Paris, where she received dual master's degrees in Financial Engineering (2014) and Economic Psychology (2015). After that, she obtained her Ph.D in Finance from the University of Hong Kong (2020). Her research interests span across quantitative financial history and empirical corporate finance. She places special emphasis on identifying the foundational factors that influence the enduring development of finance, in particular at its genesis. Her findings have been published in prestigious international journals, including the <em>Journal of Finance</em>, the <em>Journal of Financial Economics</em>, and <em>Management Science</em> among others.
+              </div>
+            </div>
           </div>
         </div>
         
