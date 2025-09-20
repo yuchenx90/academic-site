@@ -34,7 +34,7 @@ jobs:
         with:
           go-version: '1.21'
 
-      # 强制清缓存并直连拉取模块
+      # 清缓存并刷新 Hugo 模块，避免伪版本问题
       - name: Refresh Hugo modules (force clean)
         env:
           HUGO_MODULE_PROXY: direct
@@ -42,42 +42,4 @@ jobs:
           GONOSUMDB: github.com/HugoBlox/*
           GOPRIVATE: github.com/HugoBlox/*
         run: |
-          rm -rf $HOME/.cache/hugo_cache/
-          rm -rf $HOME/go/pkg/mod/
-          hugo mod clean
-          hugo mod tidy
-          hugo version
-
-      # ✅ 安装 Node 与 Tailwind CLI（Hugo Blox 需要）
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install Tailwind CLI (and PostCSS toolchain)
-        run: |
-          npm install -g tailwindcss@3 postcss@8 postcss-cli@10 autoprefixer@10
-
-      - name: Build site
-        env:
-          HUGO_MODULE_PROXY: direct
-          GOPROXY: direct
-        run: |
-          echo "Hugo Cache Dir: $(hugo config | grep cachedir || true)"
-          hugo --gc --minify --enableGitInfo
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          rm -r
