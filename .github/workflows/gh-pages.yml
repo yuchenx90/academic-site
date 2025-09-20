@@ -34,7 +34,7 @@ jobs:
         with:
           go-version: '1.21'
 
-      # 强制清缓存并直连拉取模块，避免伪版本时间戳问题
+      # 强制清缓存并直连拉取模块
       - name: Refresh Hugo modules (force clean)
         env:
           HUGO_MODULE_PROXY: direct
@@ -47,6 +47,16 @@ jobs:
           hugo mod clean
           hugo mod tidy
           hugo version
+
+      # ✅ 安装 Node 与 Tailwind CLI（Hugo Blox 需要）
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Tailwind CLI (and PostCSS toolchain)
+        run: |
+          npm install -g tailwindcss@3 postcss@8 postcss-cli@10 autoprefixer@10
 
       - name: Build site
         env:
