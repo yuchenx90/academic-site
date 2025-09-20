@@ -34,7 +34,7 @@ jobs:
         with:
           go-version: '1.21'
 
-      # 清缓存并刷新 Hugo 模块，避免伪版本问题
+      # 强制清缓存并刷新 Hugo 模块（避免伪版本/缓存问题）
       - name: Refresh Hugo modules (force clean)
         env:
           HUGO_MODULE_PROXY: direct
@@ -42,4 +42,44 @@ jobs:
           GONOSUMDB: github.com/HugoBlox/*
           GOPRIVATE: github.com/HugoBlox/*
         run: |
-          rm -r
+          rm -rf "$HOME/.cache/hugo_cache/"
+          rm -rf "$HOME/go/pkg/mod/"
+          hugo mod clean
+          hugo mod tidy
+          hugo version
+
+      # Node & CSS 工具链（Tailwind / PostCSS / Autoprefixer）
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Create local package.json & install CSS toolchain
+        run: |
+          test -f package.json || npm init -y
+          npm install tailwindcss@3 postcss@8 postcss-cli@10 autoprefixer@10
+          npx update-browserslist-db@latest --yes || true
+
+      - name: Build site
+        env:
+          HUGO_MODULE_PROXY: direct
+          GOPROXY: direct
+        run: |
+          echo "Hugo Cache Dir: $(hugo config | grep cachedir || true)"
+          hugo --gc --minify --enableGitInfo
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
