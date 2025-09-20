@@ -3,6 +3,27 @@ title: "Home"
 type: landing
 
 sections:
+  # 全站样式覆盖（放宽容器宽度）
+  - block: markdown
+    id: style
+    content:
+      title: ""
+      text: |-
+        <style>
+          :root { --site-max: 1100px; }
+          /* 放宽常见的容器类：hb-section、container、prose、max-w-*  */
+          .hb-section .container,
+          .container,
+          .prose,
+          .max-w-prose,
+          .max-w-3xl,
+          .max-w-4xl {
+            max-width: min(var(--site-max), 92vw) !important;
+          }
+        </style>
+
+        
+sections:
   # 🟣 Bio 区块
   - block: markdown
     id: bio
