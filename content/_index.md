@@ -36,39 +36,35 @@ sections:
           .pub-links { margin:0; }
           .pub-links a { color:#555; text-decoration-color:#bbb; }
 
-          /* 统一：两块区域都占满容器宽 */
-          #.teach, .awards { width: 100%; }
-          /* Teaching：左列最小 720px、最大填满；右列随内容宽度（年份） */
-          .teach .row-2col{
-            display: grid;
-            grid-template-columns: minmax(720px, 1fr) max-content; /* ← 左列；右列 */
-            grid-template-areas: "left right";
-            align-items: flex-start;
-            gap: 16px;
-            padding: 10px 0;
-          }
-          .teach-left  { grid-area: left;  min-width: 720px; }   /* 双保险：左列最小 720 */
-          .teach-right { grid-area: right; justify-self: end; text-align: right; white-space: nowrap; color:#444; }
-          
-          /* Awards 同理（如果也要一致） */
-          .awards .row-2col{
-            display: grid;
+          /* 统一两栏布局：左自适应，右固定宽度 */
+          .row-2col {
+            display:grid;
             grid-template-columns: minmax(720px, 1fr) max-content;
-            grid-template-areas: "left right";
-            align-items: flex-start;
-            gap: 16px;
-            padding: 10px 0;
+            align-items:flex-start;
+            gap:16px;
+            padding:10px 0;
           }
-          .awards-left  { grid-area: left;  min-width: 720px; }
-          .awards-right { grid-area: right; justify-self: end; text-align: right; white-space: nowrap; color:#444; }
-          
-          /* 窄屏堆叠，避免溢出 */
-          @media (max-width: 800px){
-            .teach .row-2col,
-            .awards .row-2col{ grid-template-columns: 1fr; grid-template-areas: "left" "right"; }
-            .teach-right, .awards-right{ justify-self: start; text-align: left; white-space: normal; }
+          .row-2col .teach-right,
+          .row-2col .awards-right {
+            justify-self:end;
+            text-align:right;
+            white-space:nowrap;
+            color:#444;
           }
-                 </style>
+          .teach-title, .awards-title { font-weight:600; }
+          .teach-sub,   .awards-sub   { color:#555; margin-top:4px; }
+        
+          /* 窄屏改为上下堆叠 */
+          @media (max-width: 640px){
+            .row-2col { grid-template-columns: 1fr; }
+            .row-2col .teach-right,
+            .row-2col .awards-right {
+              justify-self:start;
+              text-align:left;
+              white-space:normal;
+            }
+          }
+      </style>
   ##################################### Bio ########################################################################
   - block: markdown
     id: bio
