@@ -50,6 +50,8 @@ sections:
           .row-2col{ grid-template-columns:1fr }
           .teach-right,.awards-right{ text-align:left; white-space:normal }
         }
+        /* 兜底：确保任何 section 里的 .prose 都按我们设的全宽渲染 */
+        .hb-section .container .prose { max-width: min(var(--site-max), 92vw) !important; }
         </style>
 
   ##################################### Bio ########################################################################
