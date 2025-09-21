@@ -41,7 +41,7 @@ sections:
             <img src="img/yuchen.jpg" alt="Yuchen Xu"
                  style="max-width:320px; width:100%; height:auto; border-radius:8px; display:block;">
             <figcaption style="margin-top:10px; line-height:1.35;">
-              <div style="font-size:1.25rem; font-weight:700;">Yuchen XU</div>
+              <div style="font-size:1.25rem; font-weight:700; color:#0f766e;">Yuchen XU</div>
               <div style="font-size:0.95rem; color:#555;">Assistant Professor in Finance</div>
               <div style="font-size:0.95rem; color:#555;">UNSW Business School</div>
             </figcaption>
@@ -54,7 +54,7 @@ sections:
                   <path d="M12 3v10.586l3.293-3.293 1.414 1.414L12 17.414l-4.707-4.707 1.414-1.414L11 13.586V3h2zM5 19h14v2H5z"/>
                 </svg>
               </span>
-              Download my <a href=cv/CV_yuchen.pdf" target="_blank" rel="noopener">CV</a>
+              Download my <a href=cv/CV_yuchen.pdf" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">CV</a>
             </p>
             <p>
               <span aria-hidden="true" style="display:inline-block; vertical-align:-0.15em; margin-right:6px;">
@@ -62,7 +62,7 @@ sections:
                   <path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm7.93 9h-3.12a15.7 15.7 0 0 0-1.1-4.11A8.02 8.02 0 0 1 19.93 11zM12 4a13.7 13.7 0 0 1 1.7 5H10.3A13.7 13.7 0 0 1 12 4zM8.29 6.89A15.7 15.7 0 0 0 7.19 11H4.07a8.02 8.02 0 0 1 4.22-4.11zM4.07 13h3.12c.24 1.43.62 2.83 1.1 4.11A8.02 8.02 0 0 1 4.07 13zM12 20a13.7 13.7 0 0 1-1.7-5h3.4A13.7 13.7 0 0 1 12 20zm3.71-2.89c.49-1.28.86-2.68 1.1-4.11h3.12a8.02 8.02 0 0 1-4.22 4.11z"/>
                 </svg>
               </span>
-              <a href="https://www.unsw.edu.au/staff/yuchen-xu" target="_blank" rel="noopener">UNSW staff profile</a>
+              <a href="https://www.unsw.edu.au/staff/yuchen-xu" target="_blank" rel="noopener"  style="color:#555; text-decoration-color:#bbb;">UNSW staff profile</a>
             </p>
           
             <!-- Sections -->
