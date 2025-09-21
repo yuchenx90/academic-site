@@ -37,30 +37,33 @@ sections:
           .pub-links { margin:0; }
           .pub-links a { color:#555; text-decoration-color:#bbb; }
         
-        /* 两列：左=剩余全部宽度，右=正好包住内容 */
-          .row-2col{
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) max-content; /* ← 关键：右列自适应内容宽度 */
-            align-items: flex-start;
-            gap: 16px;              /* 想更紧凑可改 12 或 8 */
-            padding: 10px 0;
+          /* 统一两栏布局：左自适应，右固定宽度 */
+          .row-2col {
+            display:grid;
+            grid-template-columns: minmax(0,1fr) var(--right-col);
+            align-items:flex-start;
+            gap:16px;
+            padding:10px 0;
           }
           .row-2col .teach-right,
-          .row-2col .awards-right{
-            justify-self: end;      /* 贴右对齐 */
-            text-align: right;
-            white-space: nowrap;    /* 防止年份换行 */
-            color: #444;
+          .row-2col .awards-right {
+            width: var(--right-col);
+            justify-self:end;
+            text-align:right;
+            white-space:nowrap;
+            color:#444;
           }
+          .teach-title, .awards-title { font-weight:600; }
+          .teach-sub,   .awards-sub   { color:#555; margin-top:4px; }
         
-          /* 窄屏下改为上下堆叠 */
+          /* 窄屏改为上下堆叠 */
           @media (max-width: 640px){
-            .row-2col{ grid-template-columns: 1fr; }
+            .row-2col { grid-template-columns: 1fr; }
             .row-2col .teach-right,
-            .row-2col .awards-right{
-              justify-self: start;
-              text-align: left;
-              white-space: normal;
+            .row-2col .awards-right {
+              justify-self:start;
+              text-align:left;
+              white-space:normal;
             }
           }
         </style>
