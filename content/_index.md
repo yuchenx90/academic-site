@@ -3,7 +3,7 @@ title: "Home"
 type: landing
 
 sections:
-  # 全站样式（必须放在第一个 section）
+  # 全站样式（第一个 section）
   - block: markdown
     id: style
     content:
