@@ -8,11 +8,6 @@ sections:
     content:
       title: ""
       text: |
-  - block: markdown
-    id: style
-    content:
-      title: ""
-      text: |
         <style>
           /* 基础：字体 & 全局最大宽 */
           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
