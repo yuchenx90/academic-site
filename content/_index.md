@@ -51,7 +51,7 @@ sections:
             white-space:nowrap;
             color:#444;
           }
-          .teach-title, .awards-title { font-weight:600; color:#616161}
+          .teach-title, .awards-title { font-weight:500; }
           .teach-sub,   .awards-sub   { color:#555; margin-top:4px; }
         
           /* 窄屏改为上下堆叠 */
