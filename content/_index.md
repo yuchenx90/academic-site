@@ -42,6 +42,17 @@ sections:
           }
           .pub-links{ margin:0; }
           .pub-links a{ color:#555; text-decoration-color:#bbb; }
+          .teach { border-top:1px solid #e5e7eb; padding-top:10px; margin-top:6px; }
+          .teach-item { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; padding:10px 0; }
+          .teach-left { flex:1; }
+          .teach-title { font-weight:600; }
+          .teach-sub { color:#555; margin-top:4px; }
+          .teach-right { white-space:nowrap; color:#444; }
+          /* 窄屏下改为上下堆叠 */
+          @media (max-width: 640px){
+            .teach-item { flex-direction:column; gap:6px; }
+            .teach-right { white-space:normal; }
+          }
         </style>
 
   ##################################### Bio ########################################################################
@@ -260,8 +271,27 @@ sections:
     id: teaching
     content:
       title: "Teaching"
-      text: |-
-        - UNSW FINS5513: Corporate Finance.  
-        - UNSW FINS5566: Empirical Asset Pricing.  
-        - PKU HSBC: Financial Markets (2019–2023).  
----
+           text: |-
+        <div class="teach">
+          <div class="teach-item">
+            <div class="teach-left">
+              <div class="teach-title">International Corporate Finance / International Business Finance</div>
+              <div class="teach-sub">to undergraduates and masters</div>
+            </div>
+            <div class="teach-right">2023–present, spring</div>
+          </div>
+          <div class="teach-item">
+            <div class="teach-left">
+              <div class="teach-title">Financial History</div>
+              <div class="teach-sub">to undergraduates, masters, and MBAs; teaching evaluation 98/100</div>
+            </div>
+            <div class="teach-right">2020–2022, fall and spring</div>
+          </div>
+          <div class="teach-item">
+            <div class="teach-left">
+              <div class="teach-title">Corporate Finance</div>
+              <div class="teach-sub">to masters</div>
+            </div>
+            <div class="teach-right">2020–2022, fall and spring</div>
+          </div>
+        </div>
