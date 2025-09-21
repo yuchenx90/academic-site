@@ -157,9 +157,14 @@ sections:
       text: |-
         <!-- Pub 1 -->
         <div class="pub-item">
-          <p class="pub-ref">
-            <strong>1. Lin, C., Ma, C., Sun, Y., and Xu, Y. (2025). The Allocation of Talent and Financial Development, 1897–1936. 
-            <em>Management Science</em>, 71(6), 4688–4706.</strong>
+         <p class="pub-ref" style="margin:0 0 4px;">
+           <strong>1. The Allocation of Talent and Financial Development, 1897–1936. With
+            <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>,
+            <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>, and
+            <a href="https://scholar.google.com/citations?user=wL_q58YAAAAJ&hl=en" target="_blank" rel="noopener">Yuchen Sun</a>.
+          </p>
+          <p class="pub-ref" style="margin:0 0 6px;">
+            <em>Management Science</em>，2025
           </p>
           <p class="pub-abstract">We examine how the supply of talent affected financial development based on an experiment that abruptly changed the allocation of talent in historical China. Under the meritocratic civil examination system, government service was the main employment for the Chinese intellectuals. The abolition of this system in 1905 reduced the status and wealth attached to government service, which led the intellectuals to turn to modern banking as a high-status sector of employment. We find that regions where there were more candidates for the civil examination produced more financial professionals after 1905, which translated to a greater development of modern banking.</p>
           <p class="pub-links">
@@ -170,10 +175,16 @@ sections:
         </div>
         <!-- Pub 2 -->
         <div class="pub-item">
-          <p class="pub-ref">
-            <strong>2. Levine, R., Lin, C., Ma, C., and Xu, Y. (2023). The Legal Origins of Financial Development: Evidence from the Shanghai Concessions. 
-            <em>The Journal of Finance</em>, 78(6), 3423–3464.</strong>
-          </p>
+         <p class="pub-ref" style="margin:0 0 4px;">
+          <strong>2. The Legal Origins of Financial Development: Evidence from the Shanghai Concessions.</strong>
+          With
+          <a href="https://www.hoover.org/profiles/ross-levine" target="_blank" rel="noopener">Ross Levine</a>,
+          <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>, and
+          <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>.
+        </p>
+        <p class="pub-ref" style="margin:0 0 6px;">
+          <strong><em>The Journal of Finance</em></strong>，2025
+        </p>
           <p class="pub-abstract">The primary challenge to assessing the legal origins view of comparative financial development is identifying exogenous changes in legal systems. We assemble new data on Shanghai's British and French concessions between 1845 and 1936. Two regime changes altered British and French legal jurisdiction over their respective concessions. By examining the changing application of different legal traditions to adjacent neighborhoods within the same city and controlling for military, economic, and political characteristics, we offer new evidence consistent with the legal origins view: the financial development advantage in the British concession widened after Western legal jurisdiction intensified and narrowed after it abated.</p>
           <p class="pub-links">
             [<a href="paper/Shanghai.pdf" target="_blank" rel="noopener">Paper</a>]
