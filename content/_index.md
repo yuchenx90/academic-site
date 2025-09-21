@@ -168,7 +168,6 @@ sections:
             [<a href="https://pubsonline.informs.org/doi/full/10.1287/mnsc.2023.00456" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
-
         <!-- Pub 2 -->
         <div class="pub-item">
           <p class="pub-ref">
@@ -182,7 +181,6 @@ sections:
             [<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jofi.13284" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
-
         <!-- Pub 3 -->
         <div class="pub-item">
           <p class="pub-ref">
