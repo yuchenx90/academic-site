@@ -57,8 +57,9 @@ jobs:
       - name: Create local package.json & install CSS toolchain
         run: |
           test -f package.json || npm init -y
-          npm install tailwindcss@3 postcss@8 postcss-cli@10 autoprefixer@10
+          npm install tailwindcss@^4 postcss@^8 postcss-cli@^10 autoprefixer@^10
           npx update-browserslist-db@latest --yes || true
+          npx tailwindcss --version
 
       - name: Build site
         env:
