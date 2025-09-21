@@ -31,7 +31,7 @@ sections:
         <div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap;">
           <figure style="margin:0; text-align:center; flex:0 0 auto;">
             <img src="img/yuchen.jpg" alt="Yuchen Xu"
-                 style="width:220px; height:220px; object-fit:cover; border-radius:8px; display:block;">
+                 style="max-width:320px; width:100%; height:auto; border-radius:8px; display:block;">
             <figcaption style="margin-top:8px; font-weight:600;">Yuchen XU</figcaption>
           </figure>
           <div style="flex:1; min-width:280px;">
