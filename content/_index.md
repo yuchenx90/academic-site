@@ -36,7 +36,14 @@ sections:
           }
           .pub-links { margin:0; }
           .pub-links a { color:#555; text-decoration-color:#bbb; }
-
+          /* 只对正文段落两端对齐 */
+          .prose p,
+          .pub-abstract {
+            text-align: justify;
+            text-justify: inter-word;   /* 英文更均匀 */
+            hyphens: auto;              /* 自动断词，减少大空隙 */
+            -webkit-hyphens: auto;
+          }
           /* 统一：两块区域都占满容器宽 */
           .teach, .awards { width: 100%; }
           :root { --col-left: 600px;} 
@@ -67,6 +74,14 @@ sections:
               text-align:left;
               white-space:normal;
             }
+          }
+          /* 以下保持左对齐，避免难看：标题、列表、条目行、两栏布局 */
+          .prose h1, .prose h2, .prose h3,
+          ul, ol, li, figcaption,
+          .pub-ref, .pub-links,
+          .teach-title, .teach-sub, .teach-right,
+          .awards-title, .awards-sub, .awards-right {
+            text-align: left !important;
           }
         </style>
   ##################################### Bio ########################################################################
