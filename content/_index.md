@@ -42,18 +42,6 @@ sections:
           }
           .pub-links{ margin:0; }
           .pub-links a{ color:#555; text-decoration-color:#bbb; }
-          /* Teaching block */
-          .teach { border-top:1px solid #e5e7eb; padding-top:10px; margin-top:6px; }
-          .teach-item { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; padding:10px 0; }
-          .teach-left { flex:1; }
-          .teach-title { font-weight:600; }
-          .teach-sub { color:#555; margin-top:4px; }
-          .teach-right { white-space:nowrap; color:#444; }
-          /* 窄屏下改为上下堆叠 */
-          @media (max-width: 640px){
-            .teach-item { flex-direction:column; gap:6px; }
-            .teach-right { white-space:normal; }
-          }
         </style>
 
   ##################################### Bio ########################################################################
