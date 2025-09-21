@@ -216,38 +216,24 @@ sections:
           <p class="pub-ref">
             <strong>Bonds of Love: Patriotism and the Rise of Modern Banks. With <em>Yuchen Sun</em> and <em>Wanda Wang</em>.</strong>
           </p>
-          <p class="pub-abstract"> <strong>Abstract.</strong>This study examines the role of patriotism in fostering public trust in modern banks when they emerged as a new form of financial institution. In China, the loss of Western financial support during WWI (1914) prompted the Republican government to issue patriotic domestic bonds to address fiscal shortfalls. Modern banks underwrote these bonds and expanded into regions with stronger patriotic sentiment to attract subscriptions. Public trust in these banks was formed as an extension of patriots’ state-building efforts within the framework of social contracts. Historical evidence suggests that patriotism similarly fueled early banking development in other countries.</p>
+          <p class="pub-abstract"> This study examines the role of patriotism in fostering public trust in modern banks when they emerged as a new form of financial institution. In China, the loss of Western financial support during WWI (1914) prompted the Republican government to issue patriotic domestic bonds to address fiscal shortfalls. Modern banks underwrote these bonds and expanded into regions with stronger patriotic sentiment to attract subscriptions. Public trust in these banks was formed as an extension of patriots’ state-building efforts within the framework of social contracts. Historical evidence suggests that patriotism similarly fueled early banking development in other countries.</p>
           <p class="pub-links">
-            [<a href="paper/Patriotism.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="paper/Bonds of love.pdf" target="_blank" rel="noopener">Paper</a>]
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4720595" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
-        <!-- Pub 2 -->
+        <!-- Paper 2 -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>2. Levine, R., Lin, C., Ma, C., and Xu, Y. (2023). The Legal Origins of Financial Development: Evidence from the Shanghai Concessions. 
-            <em>The Journal of Finance</em>, 78(6), 3423–3464.</strong>
+            <strong>Misselling in Financial Advice. With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.</strong>
           </p>
-          <p class="pub-abstract">The primary challenge to assessing the legal origins view of comparative financial development is identifying exogenous changes in legal systems. We assemble new data on Shanghai's British and French concessions between 1845 and 1936. Two regime changes altered British and French legal jurisdiction over their respective concessions. By examining the changing application of different legal traditions to adjacent neighborhoods within the same city and controlling for military, economic, and political characteristics, we offer new evidence consistent with the legal origins view: the financial development advantage in the British concession widened after Western legal jurisdiction intensified and narrowed after it abated.</p>
+          <p class="pub-abstract"> Financial advisors often steer clients toward high-commission products, leading to poor advice quality. Yet, uncertain investment returns make it challenging to detect deliberate misselling. Our study leverages Chinese Wealth Management Products (WMPs) with implicit guarantees, enabling clear identification of misselling as recommending objectively suboptimal low-return products. Using transaction data from a large Chinese retail bank, we document pervasive misselling (74%). To capture the role of advisors, we find that performance pressure, peer effects, and promotion prospects drive misselling, while client complaints deter it. Stressed advisors particularly target inexperienced clients and private banking clients, and female advisor-male client dyads.</p>
           <p class="pub-links">
-            [<a href="paper/Shanghai.pdf" target="_blank" rel="noopener">Paper</a>]
-            [<a href="paper/Shanghai_Appendix.pdf" target="_blank" rel="noopener">Appendix</a>]
-            [<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jofi.13284" target="_blank" rel="noopener">Link</a>]
+            [<a href="paper/Bonds of love.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5368923" target="_blank" rel="noopener">Link</a>]
           </p>
-        </div>
-        <!-- Pub 3 -->
-        <div class="pub-item">
-          <p class="pub-ref">
-            <strong>3. Lin, C., Ma, C., Sun, Y., and Xu, Y. (2021). The Telegraph and Modern Banking Development. 
-            <em>Journal of Financial Economics</em>, 141(2), 730–749.</strong>
-          </p>
-          <p class="pub-abstract">The telegraph was introduced to China in the late 19th century, a time when China also saw the rise of modern banks. Based on this historical context, this paper documents the importance of information technology in banking development. We construct a data set on the distributions of telegraph stations and banks across 287 prefectures between 1881 and 1936. The results show that the telegraph significantly expanded banks’ branch networks in terms of both number and geographic scope. The effect of the telegraph remains robust when we instrument it using proximity to the early military telegraph trunk.</p>
-          <p class="pub-links">
-            [<a href="paper/Telegraph.pdf" target="_blank" rel="noopener">Paper</a>]
-            [<a href="paper/Telegraph_Appendix.pdf" target="_blank" rel="noopener">Appendix</a>]
-            [<a href="https://www.sciencedirect.com/science/article/pii/S0304405X21001380" target="_blank" rel="noopener">Link</a>]
-          </p>
-        </div>
+        </div>        
+
 
 
   ############# Funds & Awards #########################################################
