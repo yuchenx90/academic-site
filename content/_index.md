@@ -28,6 +28,8 @@ sections:
           }
           .prose { color:#111 !important; }
           .prose h1, .prose h2, .prose h3 { color:#111 !important; font-weight:700; }
+          html { scroll-behavior: smooth; }      /* 平滑滚动 */
+          [id] { scroll-margin-top: 72px; }      /* 预留导航栏高度，避免被顶栏遮住 */
         </style>
 
   ##################################### Bio ########################################################################
