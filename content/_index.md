@@ -271,7 +271,7 @@ sections:
     id: teaching
     content:
       title: "Teaching"
-           text: |-
+      text: |-
         <div class="teach">
           <div class="teach-item">
             <div class="teach-left">
