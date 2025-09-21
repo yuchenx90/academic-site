@@ -143,9 +143,46 @@ sections:
     content:
       title: "Publications"
       text: |-
-        - Paper 1. <em>Journal of Finance</em>, 2023.  
-        - Paper 2. <em>Journal of Financial Economics</em>, 2022.  
-        - Paper 3. <em>Management Science</em>, 2021.  
+        <!-- Pub 1 -->
+        <div style="margin:18px 0;">
+          <p style="margin:0 0 6px;">
+            Lin, C., Ma, C., Sun, Y., and Xu, Y. (2025). <strong>The Allocation of Talent and Financial Development, 1897–1936</strong>. 
+            <em>Management Science</em>, 71(6), 4688–4706.
+          </p>
+          <p style="margin:0 0 6px;"><strong>Abstract.</strong> XXX</p>
+          <p style="margin:0;">
+            [<a href="paper/Keju.pdf" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">Paper</a>]
+            [<a href="paper/Keju_Appendix.pdf" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">Appendix</a>]
+            [<a href="https://pubsonline.informs.org/doi/full/10.1287/mnsc.2023.00456" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">Link</a>]
+          </p>
+        </div>
+        <!-- Pub 2 -->
+        <div style="margin:18px 0;">
+          <p style="margin:0 0 6px;">
+            Levine, R., Lin, C., Ma, C., and Xu, Y. (2023). <strong>The Legal Origins of Financial Development: Evidence from the Shanghai Concessions</strong>. 
+            <em>The Journal of Finance</em>, 78(6), 3423–3464.
+          </p>
+          <p style="margin:0 0 6px;"><strong>Abstract.</strong> XXX</p>
+          <p style="margin:0;">
+            [<a href="paper/Shanghai.pdf" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">Paper</a>]
+            [<a href="paper/Shanghai_Appendix.pdf" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">Appendix</a>]
+            [<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jofi.13284" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">Link</a>]
+          </p>
+        </div>
+
+        <!-- Pub 3 -->
+        <div style="margin:18px 0;">
+          <p style="margin:0 0 6px;">
+            Lin, C., Ma, C., Sun, Y., and Xu, Y. (2021). <strong>The Telegraph and Modern Banking Development</strong>. 
+            <em>Journal of Financial Economics</em>, 141(2), 730–749.
+          </p>
+          <p style="margin:0 0 6px;"><strong>Abstract.</strong> XXX</p>
+          <p style="margin:0;">
+            [<a href="paper/Telegraph.pdf" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">Paper</a>]
+            [<a href="paper/Telegraph_Appendix.pdf" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">Appendix</a>]
+            [<a href="https://www.sciencedirect.com/science/article/pii/S0304405X21001380" target="_blank" rel="noopener" style="color:#555; text-decoration-color:#bbb;">Link</a>]
+          </p>
+        </div>
 
   ############# Working Papers #########################################################
   - block: markdown
