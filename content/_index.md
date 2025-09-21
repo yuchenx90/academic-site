@@ -37,14 +37,20 @@ sections:
         .pub-links a{ color:#555; text-decoration-color:#bbb }
         
         /* 两列布局（左内容 + 右日期），Awards/Teaching 共用 */
-        .row-2col{
-          display:grid; grid-template-columns:1fr var(--right-col);
-          align-items:flex-start; gap:16px; padding:10px 0;
-        }
+#        .row-2col{
+#          display:grid; grid-template-columns:1fr var(--right-col);
+#          align-items:flex-start; gap:16px; padding:10px 0;
+#        }
         .teach-right,.awards-right{ text-align:right; color:#444; white-space:nowrap }
         .teach-title,.awards-title{ font-weight:600 }
         .teach-sub,.awards-sub{ color:#555; margin-top:4px }
-        
+        .force-grid{
+          display:grid;
+          grid-template-columns: 80% 20%; /* 或者固定像素值，比如 500px 170px */
+          align-items:flex-start;
+          gap:16px;
+          padding:10px 0;
+        }
         /* 窄屏堆叠 */
         @media (max-width:640px){
           .row-2col{ grid-template-columns:1fr }
@@ -259,29 +265,29 @@ sections:
       title: "Teaching"
       text: |-
         <!--html-->
-        <div class="teach">
-          <div class="teach-item row-2col">
-            <div class="teach-left">
-              <div class="teach-title">International Corporate Finance</div>
-              <div class="teach-sub">Undergraduate and Master’s-level students</div>
+          <div class="teach">
+            <div class="teach-item force-grid">
+              <div class="teach-left">
+                <div class="teach-title">International Corporate Finance</div>
+                <div class="teach-sub">Undergraduate and Master’s-level students</div>
+              </div>
+              <div class="teach-right">2023–present</div>
             </div>
-            <div class="teach-right">2023–present</div>
-          </div>
-          <div class="teach-item row-2col">
-            <div class="teach-left">
-              <div class="teach-title">Financial History</div>
-              <div class="teach-sub">Undergraduate, Master’s, and MBA cohorts; teaching evaluation: 98/100</div>
+            <div class="teach-item force-grid">
+              <div class="teach-left">
+                <div class="teach-title">Financial History</div>
+                <div class="teach-sub">Undergraduate, Master’s, and MBA cohorts; teaching evaluation: 98/100</div>
+              </div>
+              <div class="teach-right">2020–2022</div>
             </div>
-            <div class="teach-right">2020–2022</div>
-          </div>
-          <div class="teach-item row-2col">
-            <div class="teach-left">
-              <div class="teach-title">Corporate Finance</div>
-              <div class="teach-sub">Master’s-level students</div>
+            <div class="teach-item force-grid">
+              <div class="teach-left">
+                <div class="teach-title">Corporate Finance</div>
+                <div class="teach-sub">Master’s-level students</div>
+              </div>
+              <div class="teach-right">2020–2022</div>
             </div>
-            <div class="teach-right">2020–2022</div>
           </div>
-        </div>
 
   ############# Grants & Awards #########################################################
   - block: markdown
