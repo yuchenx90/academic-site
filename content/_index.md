@@ -48,7 +48,7 @@ sections:
                 Email:
                 <a href="mailto:yuchen.xu@unsw.edu.au"
                    style="color:#555; text-decoration-color:#bbb;">
-                  yuchen.xu@unsw.edu.au
+                   yuchen.xu@unsw.edu.au
                 </a>
               </div>
             </figcaption>
@@ -92,7 +92,6 @@ sections:
                   <span style="color:#555;">The University of Hong Kong</span>
                 </span>
               </li>
-        
               <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
                 <span aria-hidden="true" style="line-height:1;">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
