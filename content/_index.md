@@ -223,7 +223,7 @@ sections:
         <!-- Paper 1 -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>Bonds of Love: Patriotism and the Rise of Modern Banks. With <em>Yuchen Sun</em> and <em>Wanda Wang</em>.</strong>
+            <strong>Bonds of Love: Patriotism and the Rise of Modern Banks.</strong> With <em>Yuchen Sun</em> and <em>Wanda Wang</em>.
           </p>
           <p class="pub-abstract"> This study examines the role of patriotism in fostering public trust in modern banks when they emerged as a new form of financial institution. In China, the loss of Western financial support during WWI (1914) prompted the Republican government to issue patriotic domestic bonds to address fiscal shortfalls. Modern banks underwrote these bonds and expanded into regions with stronger patriotic sentiment to attract subscriptions. Public trust in these banks was formed as an extension of patriots’ state-building efforts within the framework of social contracts. Historical evidence suggests that patriotism similarly fueled early banking development in other countries.</p>
           <p class="pub-links">
@@ -234,7 +234,7 @@ sections:
         <!-- Paper 2 -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>Misselling in Financial Advice. With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.</strong>
+            <strong>Misselling in Financial Advice.</strong> With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.
           </p>
           <p class="pub-abstract"> Financial advisors often steer clients toward high-commission products, leading to poor advice quality. Yet, uncertain investment returns make it challenging to detect deliberate misselling. Our study leverages Chinese Wealth Management Products (WMPs) with implicit guarantees, enabling clear identification of misselling as recommending objectively suboptimal low-return products. Using transaction data from a large Chinese retail bank, we document pervasive misselling (74%). To capture the role of advisors, we find that performance pressure, peer effects, and promotion prospects drive misselling, while client complaints deter it. Stressed advisors particularly target inexperienced clients and private banking clients, and female advisor-male client dyads.</p>
           <p class="pub-links">
@@ -245,7 +245,7 @@ sections:
         <!-- Paper 3 -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>From Fine to Feathers: Enforcement Stringency, Protectionism, and Biodiversity. With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.</strong>
+            <strong>From Fine to Feathers: Enforcement Stringency, Protectionism, and Biodiversity.</strong> With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.
           </p>
           <p class="pub-abstract"> Using birdwatching records and staggered reforms that enhance the independence of China’s Environmental Protection Bureaus (EPBs) during 2003-2019, this paper underscores the importance of policy enforcement stringency for biodiversity conservation. We find that greater EPB independence increased bird species richness by 22–32% and bird abundance by 35–46%. The reforms reduced local protectionism, leading to more penalties on privately owned enterprises and incentivizing them to invest in green R&D. However, state-owned enterprises continue to avoid regulatory scrutiny due to persistent central protectionism. Our findings highlight the substantial ecological costs of weak enforcement resulting from incomplete administrative independence.</p>
           <p class="pub-links">
