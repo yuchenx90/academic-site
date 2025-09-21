@@ -45,12 +45,12 @@ sections:
             -webkit-hyphens: auto;
           }
           /* 统一：两块区域都占满容器宽 */
-          .teach, .awards { width: 100%; }
+          #.teach, .awards { width: 100%; }
           :root { --col-left: 600px;} 
           /* 统一两栏布局：左自适应，右固定宽度 */
           .row-2col {
             display:grid;
-            grid-template-columns: minmax(0,1fr) var(-col-left);
+            grid-template-columns: minmax(0,1fr) var(--col-left);
             align-items:flex-start;
             gap:16px;
             padding:10px 0;
