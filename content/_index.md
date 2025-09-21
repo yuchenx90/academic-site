@@ -11,54 +11,60 @@ sections:
         <style>
           /* 字体与整体宽度 */
           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-          :root{ --site-max:1100px; --right-col:170px; }  /* 右侧日期统一宽度，可改数值微调 */
-          .hb-section .container,.container,.prose,.max-w-prose,.max-w-3xl,.max-w-4xl{
-            max-width:min(var(--site-max),92vw) !important;
+          :root { --site-max: 1100px; --right-col: 220px; } /* 右列统一宽度，按需调 */
+        
+          .hb-section .container, .container,
+          .prose, .max-w-prose, .max-w-3xl, .max-w-4xl {
+            max-width: min(var(--site-max), 92vw) !important;
           }
-          html,body{
-            font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+          html, body {
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             color:#111;
-            -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+            -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
           }
-          .prose,.prose h1,.prose h2,.prose h3{ color:#111 }
+          .prose, .prose h1, .prose h2, .prose h3 { color:#111; }
+        
           /* 平滑锚点 */
-          html{ scroll-behavior:smooth }
-          [id]{ scroll-margin-top:72px }
+          html { scroll-behavior: smooth; }
+          [id] { scroll-margin-top: 72px; }
+        
           /* Publications */
-          .pub-item{ margin:18px 0 }
-          .pub-ref{ margin:0 0 6px }
-          .pub-abstract{
+          .pub-item { margin:18px 0; }
+          .pub-ref { margin:0 0 6px; }
+          .pub-abstract {
             color:#616161; margin:4px 0 8px; padding-left:.9rem; border-left:2px solid #e5e7eb; line-height:1.6;
           }
-          .pub-links{ margin:0 }
-          .pub-links a{ color:#555; text-decoration-color:#bbb }
-          /* 统一两栏布局：左=自适应，右=固定宽度 */
-          .row-2col{
+          .pub-links { margin:0; }
+          .pub-links a { color:#555; text-decoration-color:#bbb; }
+        
+          /* 统一两栏布局：左自适应，右固定宽度 */
+          .row-2col {
             display:grid;
-            grid-template-columns: minmax(0,1fr) 220px; /* ← 右列固定 220px，可改 200–240 */
+            grid-template-columns: minmax(0,1fr) var(--right-col);
             align-items:flex-start;
             gap:16px;
             padding:10px 0;
           }
-          /* 右侧列：Teaching & Awards 统一右对齐 */
           .row-2col .teach-right,
-          .row-2col .awards-right{
+          .row-2col .awards-right {
             justify-self:end;
             text-align:right;
-            white-space:nowrap;        /* 防止年份断行 */
+            white-space:nowrap;
             color:#444;
           }
-          .teach-title,.awards-title{ font-weight:600 }
-          .teach-sub,.awards-sub{ color:#555; margin-top:4px }
-         /* 窄屏时改成上下堆叠 */
+          .teach-title, .awards-title { font-weight:600; }
+          .teach-sub,   .awards-sub   { color:#555; margin-top:4px; }
+        
+          /* 窄屏改为上下堆叠 */
           @media (max-width: 640px){
-            .row-2col{ grid-template-columns: 1fr; }
+            .row-2col { grid-template-columns: 1fr; }
             .row-2col .teach-right,
-            .row-2col .awards-right{
+            .row-2col .awards-right {
               justify-self:start;
               text-align:left;
               white-space:normal;
             }
+          }
         </style>
   ##################################### Bio ########################################################################
   - block: markdown
