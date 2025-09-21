@@ -56,7 +56,6 @@ sections:
               </span>
               Download my <a href=cv/CV_yuchen.pdf" target="_blank" rel="noopener">CV</a>
             </p>
-          
             <p>
               <span aria-hidden="true" style="display:inline-block; vertical-align:-0.15em; margin-right:6px;">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
