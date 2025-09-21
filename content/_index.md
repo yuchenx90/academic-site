@@ -76,63 +76,63 @@ sections:
               <span>UNSW staff profile</span>
             </a>
           </div>
-/*          <!--Education -->
-          <div style="display:flex; gap:36px; flex-wrap:wrap; align-items:flex-start; margin-top:18px;">
-            <!-- Education -->
-            <div style="flex:1; min-width:280px;">
-              <h3 style="margin:0 0 8px; font-weight:700; font-size:1em; line-height:inherit; display:flex; align-items:center; gap:8px;">
-                Education
-              </h3>
-              <ul style="margin:0; padding-left:0; list-style:none;">
-                <!-- 每条前也有帽子 -->
-                <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
-                  <span aria-hidden="true" style="line-height:1;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
-                    </svg>
-                  </span>
-                  <span>
-                    <strong>Ph.D. in Finance</strong>, 2020<br>
-                    <span style="color:#555;">The University of Hong Kong</span>
-                  </span>
-                </li>
-                <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
-                  <span aria-hidden="true" style="line-height:1;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
-                    </svg>
-                  </span>
-                  <span>
-                    <strong>MPhil in Economic Psychology</strong>, 2015<br>
-                    <span style="color:#555;">Paris-Sorbonne & Paris Descartes (joint)</span>
-                  </span>
-                </li>
-                <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
-                  <span aria-hidden="true" style="line-height:1;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
-                    </svg>
-                  </span>
-                  <span>
-                    <strong>MSc in Financial Engineering</strong>, 2015<br>
-                    <span style="color:#555;">Université Paris-Dauphine</span>
-                  </span>
-                </li>
-                <li style="display:flex; gap:10px; align-items:flex-start; margin:0;">
-                  <span aria-hidden="true" style="line-height:1;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
-                    </svg>
-                  </span>
-                  <span>
-                    <strong>BSc in Applied Economics</strong>, 2012<br>
-                    <span style="color:#555;">Université Paris-Dauphine</span>
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-*/
+#          <!--Education -->
+#          <div style="display:flex; gap:36px; flex-wrap:wrap; align-items:flex-start; margin-top:18px;">
+#            <!-- Education -->
+#            <div style="flex:1; min-width:280px;">
+#              <h3 style="margin:0 0 8px; font-weight:700; font-size:1em; line-height:inherit; display:flex; align-items:center; gap:8px;">
+#                Education
+#              </h3>
+#              <ul style="margin:0; padding-left:0; list-style:none;">
+#                <!-- 每条前也有帽子 -->
+#                <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
+#                  <span aria-hidden="true" style="line-height:1;">
+#                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+#                      <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
+#                    </svg>
+#                  </span>
+#                  <span>
+#                    <strong>Ph.D. in Finance</strong>, 2020<br>
+#                    <span style="color:#555;">The University of Hong Kong</span>
+#                  </span>
+#                </li>
+#                <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
+#                  <span aria-hidden="true" style="line-height:1;">
+#                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+#                      <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
+#                    </svg>
+#                  </span>
+#                  <span>
+#                    <strong>MPhil in Economic Psychology</strong>, 2015<br>
+#                    <span style="color:#555;">Paris-Sorbonne & Paris Descartes (joint)</span>
+#                  </span>
+#                </li>
+#                <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
+#                  <span aria-hidden="true" style="line-height:1;">
+#                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+#                      <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
+#                    </svg>
+#                  </span>
+#                  <span>
+#                    <strong>MSc in Financial Engineering</strong>, 2015<br>
+#                    <span style="color:#555;">Université Paris-Dauphine</span>
+#                  </span>
+#                </li>
+#                <li style="display:flex; gap:10px; align-items:flex-start; margin:0;">
+#                  <span aria-hidden="true" style="line-height:1;">
+#                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+#                      <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
+#                    </svg>
+#                  </span>
+#                  <span>
+#                    <strong>BSc in Applied Economics</strong>, 2012<br>
+#                    <span style="color:#555;">Université Paris-Dauphine</span>
+#                  </span>
+#                </li>
+#              </ul>
+#            </div>
+#          </div>
+
 
 
   # Publications
