@@ -296,3 +296,4 @@ sections:
             <div class="teach-right">2020–2022, fall and spring</div>
           </div>
         </div>
+---
