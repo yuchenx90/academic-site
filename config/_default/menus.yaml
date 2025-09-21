@@ -13,8 +13,8 @@ main:
   - name: Working Papers
     url: "/#working-papers"
     weight: 30
-  - name: Funds & Awards
-    url: "/#funds-awards"
+  - name: Grants & Awards
+    url: "/#grants-awards"
     weight: 40
   - name: Teaching
     url: "/#teaching"
