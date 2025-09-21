@@ -1,58 +1,57 @@
 ---
 title: "Home"
 type: landing
-
 sections:
   - block: markdown
     id: style
     content:
       title: ""
       text: |
-        <style>
-          /* 字体与整体宽度 */
-          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-          :root{ --site-max:1100px; --right-col:170px; }  /* 右侧日期统一宽度，可改数值微调 */
-          .hb-section .container,.container,.prose,.max-w-prose,.max-w-3xl,.max-w-4xl{
-            max-width:min(var(--site-max),92vw) !important;
-          }
-          html,body{
-            font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-            color:#111;
-            -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
-          }
-          .prose,.prose h1,.prose h2,.prose h3{ color:#111 }
-          /* 平滑锚点 */
-          html{ scroll-behavior:smooth }
-          [id]{ scroll-margin-top:72px }
-          /* Publications */
-          .pub-item{ margin:18px 0 }
-          .pub-ref{ margin:0 0 6px }
-          .pub-abstract{
-            color:#616161; margin:4px 0 8px; padding-left:.9rem; border-left:2px solid #e5e7eb; line-height:1.6;
-          }
-          .pub-links{ margin:0 }
-          .pub-links a{ color:#555; text-decoration-color:#bbb }
-          /* 两列布局（左内容 + 右日期），Awards/Teaching 共用 */
-          .row-2col{
-            display:grid;
-            grid-template-columns: minmax(200px, 1fr) var(--right-col); /* 修改为更稳定的布局 */
-            align-items:flex-start;
-            gap:16px;
-            padding:10px 0;
-          }
-          .teach-right,.awards-right{ text-align:right; color:#444; white-space:nowrap }
-          .teach-title,.awards-title{ font-weight:600 }
-          .teach-sub,.awards-sub{ color:#555; margin-top:4px }
-          /* 窄屏堆叠 */
-          @media (max-width:640px){
-            .row-2col{ grid-template-columns:1fr }
-            .teach-right,.awards-right{ text-align:left; white-space:normal }
-          }
-         /* 章节内容区域的对齐 */
-          .section-content {
-            padding-left: 20px; 
-          }
-      </style>
+<style>
+          /* 字体与整体宽度 */
+          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+          :root{ --site-max:1100px; --right-col:170px; }  /* 右侧日期统一宽度，可改数值微调 */
+          .hb-section .container,.container,.prose,.max-w-prose,.max-w-3xl,.max-w-4xl{
+            max-width:min(var(--site-max),92vw) !important;
+          }
+          html,body{
+            font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+            color:#111;
+            -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+          }
+          .prose,.prose h1,.prose h2,.prose h3{ color:#111 }
+          /* 平滑锚点 */
+          html{ scroll-behavior:smooth }
+          [id]{ scroll-margin-top:72px }
+          /* Publications */
+          .pub-item{ margin:18px 0 }
+          .pub-ref{ margin:0 0 6px }
+          .pub-abstract{
+            color:#616161; margin:4px 0 8px; padding-left:.9rem; border-left:2px solid #e5e7eb; line-height:1.6;
+          }
+          .pub-links{ margin:0 }
+          .pub-links a{ color:#555; text-decoration-color:#bbb }
+          /* 两列布局（左内容 + 右日期），Awards/Teaching 共用 */
+          .row-2col{
+            display:grid;
+            grid-template-columns: minmax(200px, 1fr) var(--right-col); /* 修改为更稳定的布局 */
+            align-items:flex-start;
+            gap:16px;
+            padding:10px 0;
+          }
+          .teach-right,.awards-right{ text-align:right; color:#444; white-space:nowrap }
+          .teach-title,.awards-title{ font-weight:600 }
+          .teach-sub,.awards-sub{ color:#555; margin-top:4px }
+          /* 窄屏堆叠 */
+          @media (max-width:640px){
+            .row-2col{ grid-template-columns:1fr }
+            .teach-right,.awards-right{ text-align:left; white-space:normal }
+          }
+          /* 章节内容区域的对齐 */
+          .section-content {
+            padding-left: 20px;
+          }
+        </style>
   ##################################### Bio ########################################################################
   - block: markdown
     id: bio
