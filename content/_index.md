@@ -48,7 +48,7 @@ sections:
   - block: markdown
     id: bio
     content:
-      title: "Bio"   # 不显示“Biography”标题
+      title: ""   # 不显示“Biography”标题
       text: |-
         <div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap;">
           <figure style="margin:0; text-align:center; flex:0 0 auto;">
