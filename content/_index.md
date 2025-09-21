@@ -52,7 +52,7 @@ sections:
           }
           /* 统一：两块区域都占满容器宽 */
           #.teach, .awards { width: 100%; }
-          :root { --col-left: 600px;} 
+          :root { --col-left: 720px;} 
           /* 统一两栏布局：左自适应，右固定宽度 */
           .row-2col {
             display:grid;
@@ -113,7 +113,7 @@ sections:
               </div>
             </figcaption>
           </figure>
-          <div style="flex:1; min-width:280px;">
+          <div class="bio-text" style="flex:1; min-width:280px;">
             Dr. Yuchen Xu is an Assistant Professor (Senior Lecturer) in Finance at UNSW Business School. Previously, she was an Assistant Professor at Peking University HSBC Business School. Dr. Xu completed her undergraduate and postgraduate studies in Paris, where she received dual master's degrees in Financial Engineering (2014) and Economic Psychology (2015). After that, she obtained her Ph.D in Finance from the University of Hong Kong (2020). Her research interests span across quantitative financial history and empirical corporate finance. She places special emphasis on identifying the foundational factors that influence the enduring development of finance, in particular at its genesis. Her findings have been published in prestigious international journals, including the <strong><em>Journal of Finance</em></strong>, the <strong><em>Journal of Financial Economics</em></strong>, and <strong><em>Management Science</em></strong> among others.
           <div style="display:flex; gap:24px; flex-wrap:wrap; align-items:center; margin-top:16px;">
             <span style="display:inline-flex; align-items:center; gap:6px;">
