@@ -67,6 +67,13 @@ sections:
             .awards-item { flex-direction:column; gap:6px; }
             .awards-right { white-space:normal; }
           }
+          .row-2col{
+            display:grid;
+            grid-template-columns: 1fr auto; /* 左列自适应，右列内容宽度 */
+            align-items:flex-start;
+            gap:16px;
+            padding:10px 0;
+          }
         </style>
 
   ##################################### Bio ########################################################################
@@ -277,63 +284,63 @@ sections:
       title: "Grants & Awards"
       text: |-
         <div class="awards">
-          <div class="awards-item">
+          <div class="awards-item row-2col">
             <div class="awards-left">
               <div class="awards-title">Outstanding Paper Award in Finance (China), China Finance Academic Alliance</div>
               <div class="awards-sub">Awarded for <em>The Allocation of Talent and Financial Development, 1897–1936</em>.</div>
             </div>
             <div class="awards-right">2025</div>
           </div>
-          <div class="awards-item">
+          <div class="awards-item row-2col">
             <div class="awards-left">
               <div class="awards-title">UNSW Dean’s Research Fellowship</div>
               <div class="awards-sub">Grant: 10,000 AUD</div>
             </div>
             <div class="awards-right">2025</div>
           </div>
-          <div class="awards-item">
+          <div class="awards-item row-2col">
             <div class="awards-left">
               <div class="awards-title">PWC5355 Best Paper Awards, PwC</div>
               <div class="awards-sub">Awarded for <em>The Legal Origins of Financial Development: Evidence from the Shanghai Concessions</em>.</div>
             </div>
             <div class="awards-right">2024</div>
           </div>
-          <div class="awards-item">
+          <div class="awards-item row-2col">
             <div class="awards-left">
               <div class="awards-title">Young Scientists Funds, National Natural Science Foundation of China (NSFC)</div>
               <div class="awards-sub">Principal Investigator; Grant: 300,000 RMB</div>
             </div>
             <div class="awards-right">2022</div>
           </div>
-          <div class="awards-item">
+          <div class="awards-item row-2col">
             <div class="awards-left">
               <div class="awards-title">NSFC–STINT Joint Research Program</div>
               <div class="awards-sub">Participant; Grant: 400,000 RMB (NSFC) and 599,200 SEK (STINT)</div>
             </div>
             <div class="awards-right">2022</div>
           </div>
-          <div class="awards-item">
+          <div class="awards-item row-2col">
             <div class="awards-left">
               <div class="awards-title">General Program of NSFC</div>
               <div class="awards-sub">Participant; Grant: 300,000 RMB</div>
             </div>
             <div class="awards-right">2021</div>
           </div>
-          <div class="awards-item">
+          <div class="awards-item row-2col">
             <div class="awards-left">
               <div class="awards-title">Overseas High-Caliber Personnel, Shenzhen</div>
               <div class="awards-sub">Grant of 1,000,000 RMB from the Shenzhen government</div>
             </div>
             <div class="awards-right">2021</div>
           </div>
-          <div class="awards-item">
+          <div class="awards-item row-2col">
             <div class="awards-left">
               <div class="awards-title">Membership in Beta Gamma Sigma</div>
               <div class="awards-sub"></div>
             </div>
             <div class="awards-right">2021</div>
           </div>
-          <div class="awards-item">
+          <div class="awards-item row-2col">
             <div class="awards-left">
               <div class="awards-title">FBE PhD Research Excellence Award, The University of Hong Kong</div>
               <div class="awards-sub"></div>
@@ -348,21 +355,21 @@ sections:
       title: "Teaching"
       text: |-
         <div class="teach">
-          <div class="teach-item">
+          <div class="teach-item row-2col">
             <div class="teach-left">
               <div class="teach-title">International Corporate Finance / International Business Finance</div>
               <div class="teach-sub">to undergraduates and masters</div>
             </div>
             <div class="teach-right">2023–present, spring</div>
           </div>
-          <div class="teach-item">
+          <div class="teach-item row-2col">
             <div class="teach-left">
               <div class="teach-title">Financial History</div>
               <div class="teach-sub">to undergraduates, masters, and MBAs; teaching evaluation 98/100</div>
             </div>
             <div class="teach-right">2020–2022, fall and spring</div>
           </div>
-          <div class="teach-item">
+          <div class="teach-item row-2col">
             <div class="teach-left">
               <div class="teach-title">Corporate Finance</div>
               <div class="teach-sub">to masters</div>
