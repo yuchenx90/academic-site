@@ -11,7 +11,7 @@ sections:
         <style>
           /* 字体与整体宽度 */
           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-          :root { --site-max: 1100px; --right-col: 220px; } /* 右列统一宽度，按需调 */
+          :root { --site-max: 1100px;} 
         
           .hb-section .container, .container,
           .prose, .max-w-prose, .max-w-3xl, .max-w-4xl {
@@ -36,18 +36,20 @@ sections:
           }
           .pub-links { margin:0; }
           .pub-links a { color:#555; text-decoration-color:#bbb; }
-        
+
+          /* 统一：两块区域都占满容器宽 */
+          .teach, .awards { width: 100%; }
+          :root { --col-left: 720px;} 
           /* 统一两栏布局：左自适应，右固定宽度 */
           .row-2col {
             display:grid;
-            grid-template-columns: minmax(0,1fr) var(--right-col);
+            grid-template-columns: minmax(0,1fr) var(-col-left);
             align-items:flex-start;
             gap:16px;
             padding:10px 0;
           }
           .row-2col .teach-right,
           .row-2col .awards-right {
-            width: var(--right-col);
             justify-self:end;
             text-align:right;
             white-space:nowrap;
