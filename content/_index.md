@@ -1,13 +1,14 @@
 ---
 title: "Home"
 type: landing
+
 sections:
-  - block: markdown
-    id: style
-    content:
-      title: ""
-      text: |
-        <style>
+  - block: markdown
+    id: style
+    content:
+      title: ""
+      text: |
+        <style>
           /* 字体与整体宽度 */
           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
           :root{ --site-max:1100px; --right-col:170px; }  /* 右侧日期统一宽度，可改数值微调 */
