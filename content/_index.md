@@ -259,6 +259,7 @@ sections:
     content:
       title: "Teaching"
       text: |-
+        <!--html-->
         <div class="teach">
           <div class="teach-item row-2col">
             <div class="teach-left">
