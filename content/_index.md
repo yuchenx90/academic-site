@@ -52,7 +52,12 @@ sections:
           .row-2col{ grid-template-columns:1fr }
           .teach-right,.awards-right{ text-align:left; white-space:normal }
         }
-        </style>
+          /* 章节内容区域的对齐 */
+      .section-content {
+        /* 你可以根据需要调整左侧的内边距，来对齐到你希望的位置 */
+        padding-left: 20px; 
+      }
+              </style>
   ##################################### Bio ########################################################################
   - block: markdown
     id: bio
@@ -261,7 +266,7 @@ sections:
       title: "Teaching"
       text: |-
         <!--html-->
-          <div class="teach">
+          <div class="teach section-content">
             <div class="teach-item row-2col">
               <div class="teach-left">
                 <div class="teach-title">International Corporate Finance</div>
@@ -291,7 +296,7 @@ sections:
     content:
       title: "Grants & Awards"
       text: |-
-          <div class="awards">
+          <div class="awards section-content">
             <div class="awards-item row-2col">
               <div class="awards-left">
                 <div class="awards-title">Outstanding Paper Award in Finance (China), China Finance Academic Alliance</div>
