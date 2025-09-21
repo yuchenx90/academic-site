@@ -2,37 +2,32 @@
 title: "Home"
 type: landing
 
-# 全站样式（必须放在第一个 section）
-- block: markdown
-  id: style
-  content:
-    title: ""
-    text: |-
-      <style>
-        /* 1) 加载 Inter（拉丁字符用这个就够了） */
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-        /* 2) 放宽容器宽度到 ~1100px */
-        :root{ --site-max:1100px; }
-        .hb-section .container,
-        .container,
-        .prose,
-        .max-w-prose,
-        .max-w-3xl,
-        .max-w-4xl {
-          max-width: min(var(--site-max), 92vw) !important;
-        }
-
-        /* 3) 统一字体与颜色（更接近 demo 的“黑色”） */
-        html, body {
-          font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-          color:#111;                /* 正文更黑 */
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-        }
-        .prose{ color:#111 !important; }
-        .prose h1,.prose h2,.prose h3{ color:#111 !important; font-weight:700; }
-        .prose a{ color:#111; text-decoration-color:#aaa; }
+sections:
+  - block: markdown
+    id: style
+    content:
+      title: ""
+      text: |
+        <style>
+          /* Load Inter and widen the layout */
+          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+          :root { --site-max: 1100px; }
+          .hb-section .container,
+          .container,
+          .prose,
+          .max-w-prose,
+          .max-w-3xl,
+          .max-w-4xl {
+            max-width: min(var(--site-max), 92vw) !important;
+          }
+          html, body {
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color:#111;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+          }
+          .prose { color:#111 !important; }
+          .prose h1, .prose h2, .prose h3 { color:#111 !important; font-weight:700; }
         </style>
 
   # Bio
