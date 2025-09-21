@@ -60,11 +60,12 @@ sections:
             </span>
             <a href="https://www.unsw.edu.au/staff/yuchen-xu" target="_blank" rel="noopener"
                style="display:inline-flex; align-items:center; gap:6px; color:#555; text-decoration-color:#bbb;">
-              <span aria-hidden="true" style="display:inline-block; vertical-align:-0.15em;">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm7.93 9h-3.12a15.7 15.7 0 0 0-1.1-4.11A8.02 8.02 0 0 1 19.93 11zM12 4a13.7 13.7 0 0 1 1.7 5H10.3A13.7 13.7 0 0 1 12 4zM8.29 6.89A15.7 15.7 0 0 0 7.19 11H4.07a8.02 8.02 0 0 1 4.22-4.11zM4.07 13h3.12c.24 1.43.62 2.83 1.1 4.11A8.02 8.02 0 0 1 4.07 13zM12 20a13.7 13.7 0 0 1-1.7-5h3.4A13.7 13.7 0 0 1 12 20zm3.71-2.89c.49-1.28.86-2.68 1.1-4.11h3.12a8.02 8.02 0 0 1-4.22 4.11z"/>
-                </svg>
-              </span>
+                <span aria-hidden="true" style="display:inline-block; vertical-align:-0.15em;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 3h7v7h-2V6.414L9.707 15.707l-1.414-1.414L17.586 5H14V3z"/>
+                    <path d="M19 19H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7v2H5v12h12v-7h2v7a2 2 0 0 1-2 2z"/>
+                  </svg>
+                </span>
               <span>UNSW staff profile</span>
             </a>
           </div>
@@ -75,7 +76,6 @@ sections:
               <li>MSc in Financial Engineering, Paris (2014)</li>
               <li>MA in Economic Psychology, Paris (2015)</li>
             </ul>
-          
             <h3 style="margin-top:16px; font-weight:700;">Languages</h3>
             <ul>
               <li>English</li>
