@@ -37,10 +37,10 @@ sections:
         .pub-links a{ color:#555; text-decoration-color:#bbb }
         
         /* 两列布局（左内容 + 右日期），Awards/Teaching 共用 */
-#        .row-2col{
-#          display:grid; grid-template-columns:1fr var(--right-col);
-#          align-items:flex-start; gap:16px; padding:10px 0;
-#        }
+        .row-2col{
+          display:grid; grid-template-columns:1fr var(--right-col);
+          align-items:flex-start; gap:16px; padding:10px 0;
+        }
         .teach-right,.awards-right{ text-align:right; color:#444; white-space:nowrap }
         .teach-title,.awards-title{ font-weight:600 }
         .teach-sub,.awards-sub{ color:#555; margin-top:4px }
