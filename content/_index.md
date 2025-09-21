@@ -7,7 +7,7 @@ sections:
     id: style
     content:
       title: ""
-      text: |-
+      text: |
         <style>
           /* 字体与整体宽度 */
           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
