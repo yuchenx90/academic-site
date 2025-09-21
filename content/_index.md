@@ -255,7 +255,7 @@ sections:
 
   ############# Grants & Awards #########################################################
   - block: markdown
-    id: funds-awards
+    id: grants-awards
     content:
       title: "Grants & Awards"
       text: |-
