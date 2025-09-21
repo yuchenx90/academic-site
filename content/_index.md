@@ -183,7 +183,7 @@ sections:
           <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>.
         </p>
         <p class="pub-ref" style="margin:0 0 6px;">
-          <strong><em>The Journal of Finance</em></strong>，2025
+          <strong><em>The Journal of Finance</em></strong>，2023
         </p>
           <p class="pub-abstract">The primary challenge to assessing the legal origins view of comparative financial development is identifying exogenous changes in legal systems. We assemble new data on Shanghai's British and French concessions between 1845 and 1936. Two regime changes altered British and French legal jurisdiction over their respective concessions. By examining the changing application of different legal traditions to adjacent neighborhoods within the same city and controlling for military, economic, and political characteristics, we offer new evidence consistent with the legal origins view: the financial development advantage in the British concession widened after Western legal jurisdiction intensified and narrowed after it abated.</p>
           <p class="pub-links">
@@ -194,10 +194,15 @@ sections:
         </div>
         <!-- Pub 3 -->
         <div class="pub-item">
-          <p class="pub-ref">
-            <strong>3. Lin, C., Ma, C., Sun, Y., and Xu, Y. (2021). The Telegraph and Modern Banking Development. 
-            <em>Journal of Financial Economics</em>, 141(2), 730–749.</strong>
+         <p class="pub-ref" style="margin:0 0 4px;">
+           <strong>1. The Telegraph and Modern Banking Development, 1881–1936. With
+            <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>,
+            <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>, and
+            <a href="https://scholar.google.com/citations?user=wL_q58YAAAAJ&hl=en" target="_blank" rel="noopener">Yuchen Sun</a>.
           </p>
+          <p class="pub-ref" style="margin:0 0 6px;">
+            <em>Journal of Financial Economics</em>，2021
+          </p>  
           <p class="pub-abstract">The telegraph was introduced to China in the late 19th century, a time when China also saw the rise of modern banks. Based on this historical context, this paper documents the importance of information technology in banking development. We construct a data set on the distributions of telegraph stations and banks across 287 prefectures between 1881 and 1936. The results show that the telegraph significantly expanded banks’ branch networks in terms of both number and geographic scope. The effect of the telegraph remains robust when we instrument it using proximity to the early military telegraph trunk.</p>
           <p class="pub-links">
             [<a href="paper/Telegraph.pdf" target="_blank" rel="noopener">Paper</a>]
