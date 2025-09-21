@@ -158,14 +158,14 @@ sections:
         <!-- Pub 1 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
-           <strong>1. The Allocation of Talent and Financial Development, 1897–1936. With
+           1. The Allocation of Talent and Financial Development, 1897–1936. With
             <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>,
             <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>, and
             <a href="https://scholar.google.com/citations?user=wL_q58YAAAAJ&hl=en" target="_blank" rel="noopener">Yuchen Sun</a>.
           </p>
           <p class="pub-ref" style="margin:0 0 6px;">
-            <em>Management Science</em>，2025
-          </p></strong>
+            <strong><em>Management Science</em></strong>，2025
+          </p>
           <p class="pub-abstract">We examine how the supply of talent affected financial development based on an experiment that abruptly changed the allocation of talent in historical China. Under the meritocratic civil examination system, government service was the main employment for the Chinese intellectuals. The abolition of this system in 1905 reduced the status and wealth attached to government service, which led the intellectuals to turn to modern banking as a high-status sector of employment. We find that regions where there were more candidates for the civil examination produced more financial professionals after 1905, which translated to a greater development of modern banking.</p>
           <p class="pub-links">
             [<a href="paper/Keju.pdf" target="_blank" rel="noopener">Paper</a>]
@@ -176,14 +176,14 @@ sections:
         <!-- Pub 2 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
-          <strong>2. The Legal Origins of Financial Development: Evidence from the Shanghai Concessions.</strong>
+          2. The Legal Origins of Financial Development: Evidence from the Shanghai Concessions.</strong>
           With
           <a href="https://www.hoover.org/profiles/ross-levine" target="_blank" rel="noopener">Ross Levine</a>,
           <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>, and
           <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>.
         </p>
         <p class="pub-ref" style="margin:0 0 6px;">
-          <strong><em>The Journal of Finance</em></strong>，2023
+          <strong><em>The Journal of Finance</em></strong>，2023 
         </p>
           <p class="pub-abstract">The primary challenge to assessing the legal origins view of comparative financial development is identifying exogenous changes in legal systems. We assemble new data on Shanghai's British and French concessions between 1845 and 1936. Two regime changes altered British and French legal jurisdiction over their respective concessions. By examining the changing application of different legal traditions to adjacent neighborhoods within the same city and controlling for military, economic, and political characteristics, we offer new evidence consistent with the legal origins view: the financial development advantage in the British concession widened after Western legal jurisdiction intensified and narrowed after it abated.</p>
           <p class="pub-links">
@@ -195,13 +195,13 @@ sections:
         <!-- Pub 3 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
-           <strong>1. The Telegraph and Modern Banking Development, 1881–1936. With
+           1. The Telegraph and Modern Banking Development, 1881–1936. With
             <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>,
             <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>, and
             <a href="https://scholar.google.com/citations?user=wL_q58YAAAAJ&hl=en" target="_blank" rel="noopener">Yuchen Sun</a>.
           </p>
           <p class="pub-ref" style="margin:0 0 6px;">
-            <em>Journal of Financial Economics</em>，2021
+            <strong><em>Journal of Financial Economics</em></strong> ，2021 
           </p>  
           <p class="pub-abstract">The telegraph was introduced to China in the late 19th century, a time when China also saw the rise of modern banks. Based on this historical context, this paper documents the importance of information technology in banking development. We construct a data set on the distributions of telegraph stations and banks across 287 prefectures between 1881 and 1936. The results show that the telegraph significantly expanded banks’ branch networks in terms of both number and geographic scope. The effect of the telegraph remains robust when we instrument it using proximity to the early military telegraph trunk.</p>
           <p class="pub-links">
