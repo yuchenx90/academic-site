@@ -42,6 +42,7 @@ sections:
           }
           .pub-links{ margin:0; }
           .pub-links a{ color:#555; text-decoration-color:#bbb; }
+          /* Teaching block */
           .teach { border-top:1px solid #e5e7eb; padding-top:10px; margin-top:6px; }
           .teach-item { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; padding:10px 0; }
           .teach-left { flex:1; }
@@ -275,7 +276,7 @@ sections:
         <div class="teach">
           <div class="teach-item">
             <div class="teach-left">
-              <div class="teach-title">International Corporate Finance / International Business Finance</div>
+              <div class="teach-title">International Corporate Finance</div>
               <div class="teach-sub">to undergraduates and masters</div>
             </div>
             <div class="teach-right">2023–present, spring</div>
