@@ -48,10 +48,6 @@ sections:
             .row-2col{ grid-template-columns:1fr }
             .teach-right,.awards-right{ text-align:left; white-space:normal }
           }
-          /* 章节内容区域的对齐 */
-          .section-content {
-            padding-left: 20px;
-          }
         </style>
   ##################################### Bio ########################################################################
   - block: markdown
