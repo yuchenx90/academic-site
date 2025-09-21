@@ -27,7 +27,13 @@ sections:
           /* 平滑锚点 */
           html { scroll-behavior: smooth; }
           [id] { scroll-margin-top: 72px; }
-        
+        /* Bio 文本两端对齐 */
+          #bio .bio-text{
+            text-align: justify;
+            text-justify: inter-word;   /* 英文更均匀 */
+            hyphens: auto;
+            -webkit-hyphens: auto;
+          }
           /* Publications */
           .pub-item { margin:18px 0; }
           .pub-ref { margin:0 0 6px; }
