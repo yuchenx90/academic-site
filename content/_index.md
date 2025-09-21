@@ -76,48 +76,80 @@ sections:
               <span>UNSW staff profile</span>
             </a>
           </div>
-          <!-- 两栏：Education | Languages -->
-          <div style="display:flex; gap:40px; flex-wrap:wrap; align-items:flex-start; margin-top:20px;">
-            <!-- Education（带博士帽图标） -->
-            <div style="flex:1; min-width:260px; font-size:0.95rem;">
-              <h3 style="margin:0 0 8px; font-weight:700; display:flex; align-items:center; gap:8px;">
-                <span aria-hidden="true" style="display:inline-block; vertical-align:-0.15em;">
+          <!-- Education（每条都有博士帽） -->
+          <div style="flex:1; min-width:260px;">
+            <h3 style="margin:0 0 8px; font-weight:700;">Education</h3>
+            <ul style="margin:0; padding-left:0; list-style:none;">
+        
+              <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
+                <span aria-hidden="true" style="line-height:1;">
+                  <!-- mortarboard -->
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 3l10 5-10 5L2 8l10-5zm0 7l7.5-3.75V12c0 3.6-4.03 6.5-7.5 6.5S4.5 15.6 4.5 12V6.25L12 10z"/>
+                    <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
                   </svg>
                 </span>
-                Education
-              </h3>
-              <ul style="margin:0; padding-left:1.1em;">
-                <li style="margin:0 0 10px;">
-                  <strong>Ph.D. in Finance</strong>, 2020
-                  <div style="color:#555;">The University of Hong Kong</div>
-                </li>
-                <li style="margin:0 0 10px;">
-                  <strong>MPhil in Economic Psychology</strong>, 2015
-                  <div style="color:#555;">Paris-Sorbonne & Paris Descartes (joint)</div>
-                </li>
-                <li style="margin:0 0 10px;">
-                  <strong>MSc in Financial Engineering</strong>, 2015
-                  <div style="color:#555;">Université Paris-Dauphine</div>
-                </li>
-                <li style="margin:0;">
-                  <strong>BA in Applied Economics</strong>, 2012
-                  <div style="color:#555;">Université Paris-Dauphine</div>
-                </li>
-              </ul>
-            </div>
-            <!-- Languages -->
-            <div style="flex:1; min-width:260px; font-size:0.95rem;">
-              <h3 style="margin:0 0 8px; font-weight:700;">Languages</h3>
-              <ul style="margin:0; padding-left:1.1em;">
-                <li>Mandarin Chinese</li>
-                <li>Cantonese Chinese</li>
-                <li>English</li>
-                <li>French</li>
-              </ul>
-            </div>
+                <span>
+                  <strong>Ph.D. in Finance</strong>, 2020<br>
+                  <span style="color:#555;">The University of Hong Kong</span>
+                </span>
+              </li>
+        
+              <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
+                <span aria-hidden="true" style="line-height:1;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
+                  </svg>
+                </span>
+                <span>
+                  <strong>MPhil in Economic Psychology</strong>, 2015<br>
+                  <span style="color:#555;">Paris-Sorbonne & Paris Descartes (joint)</span>
+                </span>
+              </li>
+        
+              <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
+                <span aria-hidden="true" style="line-height:1;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
+                  </svg>
+                </span>
+                <span>
+                  <strong>MSc in Financial Engineering</strong>, 2015<br>
+                  <span style="color:#555;">Université Paris-Dauphine</span>
+                </span>
+              </li>
+        
+              <li style="display:flex; gap:10px; align-items:flex-start; margin:0;">
+                <span aria-hidden="true" style="line-height:1;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3l10 5-10 5L2 8l10-5z"/><path d="M19 11v3c0 3.3-3.58 6-7 6s-7-2.7-7-6v-3l7 3 7-3z"/>
+                  </svg>
+                </span>
+                <span>
+                  <strong>BSc in Applied Economics</strong>, 2012<br>
+                  <span style="color:#555;">Université Paris-Dauphine</span>
+                </span>
+              </li>
+            </ul>
           </div>
+          <!-- Languages（标题前默认：地球图标） -->
+          <div style="flex:1; min-width:260px;">
+            <h3 style="margin:0 0 8px; font-weight:700; display:flex; align-items:center; gap:8px;">
+              <span aria-hidden="true" style="line-height:1;">
+                <!-- Globe 图标 -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm7.9 9h-3.1a15.8 15.8 0 01-1.1-4.1A8 8 0 0119.9 11zM12 4a13.6 13.6 0 011.7 5h-3.4A13.6 13.6 0 0112 4zM8.3 6.9A15.7 15.7 0 007.2 11H4.1a8 8 0 014.2-4.1zM4.1 13h3.1c.2 1.4.6 2.8 1.1 4.1A8 8 0 014.1 13zM12 20a13.6 13.6 0 01-1.7-5h3.4A13.6 13.6 0 0112 20zm3.7-2.9c.5-1.3.9-2.7 1.1-4.1h3.1a8 8 0 01-4.2 4.1z"/>
+                </svg>
+              </span>
+              Languages
+            </h3>
+            <ul style="margin:0; padding-left:1.1em;">
+              <li>Mandarin Chinese</li>
+              <li>Cantonese Chinese</li>
+              <li>English</li>
+              <li>French</li>
+            </ul>
+          </div>
+        </div>
 
 
 
