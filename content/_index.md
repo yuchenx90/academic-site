@@ -44,6 +44,13 @@ sections:
               <div style="font-size:1.25rem; font-weight:700; color:#334155;">Yuchen XU</div>
               <div style="font-size:0.95rem; color:#555;">Assistant Professor in Finance</div>
               <div style="font-size:0.95rem; color:#555;">UNSW Business School</div>
+              <div style="font-size:0.95rem; color:#555;">
+                Email:
+                <a href="mailto:yuchen.xu@unsw.edu.au"
+                   style="color:#555; text-decoration-color:#bbb;">
+                  yuchen.xu@unsw.edu.au
+                </a>
+              </div>
             </figcaption>
           </figure>
           <div style="flex:1; min-width:280px;">
@@ -69,21 +76,50 @@ sections:
               <span>UNSW staff profile</span>
             </a>
           </div>
-          <!-- Sections -->
-            <h3 style="margin-top:22px; font-weight:700;">Education</h3>
-            <ul>
-              <li>Ph.D. in Finance, The University of Hong Kong (2020)</li>
-              <li>MSc in Financial Engineering, Paris (2014)</li>
-              <li>MA in Economic Psychology, Paris (2015)</li>
-            </ul>
-            <h3 style="margin-top:16px; font-weight:700;">Languages</h3>
-            <ul>
-              <li>English</li>
-              <li>Mandarin Chinese</li>
-              <li>French</li>
-            </ul>
+          <!-- 两栏：Education | Languages -->
+          <div style="display:flex; gap:40px; flex-wrap:wrap; align-items:flex-start; margin-top:20px;">
+            <!-- Education（带博士帽图标） -->
+            <div style="flex:1; min-width:260px; font-size:0.95rem;">
+              <h3 style="margin:0 0 8px; font-weight:700; display:flex; align-items:center; gap:8px;">
+                <span aria-hidden="true" style="display:inline-block; vertical-align:-0.15em;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3l10 5-10 5L2 8l10-5zm0 7l7.5-3.75V12c0 3.6-4.03 6.5-7.5 6.5S4.5 15.6 4.5 12V6.25L12 10z"/>
+                  </svg>
+                </span>
+                Education
+              </h3>
+              <ul style="margin:0; padding-left:1.1em;">
+                <li style="margin:0 0 10px;">
+                  <strong>Ph.D. in Finance</strong>, 2020
+                  <div style="color:#555;">The University of Hong Kong</div>
+                </li>
+                <li style="margin:0 0 10px;">
+                  <strong>MPhil in Economic Psychology</strong>, 2015
+                  <div style="color:#555;">Paris-Sorbonne & Paris Descartes (joint)</div>
+                </li>
+                <li style="margin:0 0 10px;">
+                  <strong>MSc in Financial Engineering</strong>, 2015
+                  <div style="color:#555;">Université Paris-Dauphine</div>
+                </li>
+                <li style="margin:0;">
+                  <strong>BA in Applied Economics</strong>, 2012
+                  <div style="color:#555;">Université Paris-Dauphine</div>
+                </li>
+              </ul>
+            </div>
+            <!-- Languages -->
+            <div style="flex:1; min-width:260px; font-size:0.95rem;">
+              <h3 style="margin:0 0 8px; font-weight:700;">Languages</h3>
+              <ul style="margin:0; padding-left:1.1em;">
+                <li>Mandarin Chinese</li>
+                <li>Cantonese Chinese</li>
+                <li>English</li>
+                <li>French</li>
+              </ul>
+            </div>
           </div>
-        </div>
+
+
 
   # Publications
   - block: markdown
