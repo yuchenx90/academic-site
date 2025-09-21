@@ -266,21 +266,21 @@ sections:
                 <div class="teach-title">International Corporate Finance / International Business Finance</div>
                 <div class="teach-sub">to undergraduates and masters</div>
               </div>
-              <div class="teach-right">2023–present, spring</div>
+              <div class="teach-right">2023–present</div>
             </div>
             <div class="teach-item row-2col">
               <div class="teach-left">
                 <div class="teach-title">Financial History</div>
                 <div class="teach-sub">to undergraduates, masters, and MBAs; teaching evaluation 98/100</div>
               </div>
-              <div class="teach-right">2020–2022, fall and spring</div>
+              <div class="teach-right">2020–2022</div>
             </div>
             <div class="teach-item row-2col">
               <div class="teach-left">
                 <div class="teach-title">Corporate Finance</div>
                 <div class="teach-sub">to masters</div>
               </div>
-              <div class="teach-right">2020–2022, fall and spring</div>
+              <div class="teach-right">2020–2022</div>
             </div>
           </div>
     
