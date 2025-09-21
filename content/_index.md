@@ -54,6 +54,19 @@ sections:
             .teach-item { flex-direction:column; gap:6px; }
             .teach-right { white-space:normal; }
           }
+          /* Grants & Awards block */
+          .awards { border-top:1px solid #e5e7eb; padding-top:10px; margin-top:6px; }
+          .awards-item { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; padding:10px 0; }
+          .awards-left { flex:1; }
+          .awards-title { font-weight:600; }
+          .awards-sub { color:#555; margin-top:4px; }
+          .awards-right { white-space:nowrap; color:#444; }
+          
+          /* 窄屏下改为上下堆叠 */
+          @media (max-width: 640px){
+            .awards-item { flex-direction:column; gap:6px; }
+            .awards-right { white-space:normal; }
+          }
         </style>
 
   ##################################### Bio ########################################################################
@@ -259,76 +272,75 @@ sections:
 
   ############# Grants & Awards #########################################################
   - block: markdown
-      id: grants-awards
-      content:
-        title: "Grants & Awards"
-        text: |-
-          <div class="teach">
-            <div class="teach-item">
-              <div class="teach-left">
-                <div class="teach-title">Outstanding Paper Award in Finance (China), China Finance Academic Alliance</div>
-                <div class="teach-sub">Awarded for <em>The Allocation of Talent and Financial Development, 1897–1936</em>.</div>
-              </div>
-              <div class="teach-right">2025</div>
+    id: funds-awards
+    content:
+      title: "Grants & Awards"
+      text: |-
+        <div class="awards">
+          <div class="awards-item">
+            <div class="awards-left">
+              <div class="awards-title">Outstanding Paper Award in Finance (China), China Finance Academic Alliance</div>
+              <div class="awards-sub">Awarded for <em>The Allocation of Talent and Financial Development, 1897–1936</em>.</div>
             </div>
-          <div class="teach-item">
-            <div class="teach-left">
-              <div class="teach-title">UNSW Dean’s Research Fellowship</div>
-              <div class="teach-sub">Grant: 10,000 AUD</div>
-            </div>
-            <div class="teach-right">2025</div>
+            <div class="awards-right">2025</div>
           </div>
-          <div class="teach-item">
-            <div class="teach-left">
-              <div class="teach-title">PWC5355 Best Paper Awards, PwC</div>
-              <div class="teach-sub">Awarded for <em>The Legal Origins of Financial Development: Evidence from the Shanghai Concessions</em>.</div>
+          <div class="awards-item">
+            <div class="awards-left">
+              <div class="awards-title">UNSW Dean’s Research Fellowship</div>
+              <div class="awards-sub">Grant: 10,000 AUD</div>
             </div>
-            <div class="teach-right">2024</div>
+            <div class="awards-right">2025</div>
           </div>
-          <div class="teach-item">
-            <div class="teach-left">
-              <div class="teach-title">Young Scientists Funds, National Natural Science Foundation of China (NSFC)</div>
-              <div class="teach-sub">Principal Investigator; Grant: 300,000 RMB</div>
+          <div class="awards-item">
+            <div class="awards-left">
+              <div class="awards-title">PWC5355 Best Paper Awards, PwC</div>
+              <div class="awards-sub">Awarded for <em>The Legal Origins of Financial Development: Evidence from the Shanghai Concessions</em>.</div>
             </div>
-            <div class="teach-right">2022</div>
+            <div class="awards-right">2024</div>
           </div>
-          <div class="teach-item">
-            <div class="teach-left">
-              <div class="teach-title">NSFC–STINT Joint Research Program</div>
-              <div class="teach-sub">Participant; Grant: 400,000 RMB (NSFC) and 599,200 SEK (STINT)</div>
+          <div class="awards-item">
+            <div class="awards-left">
+              <div class="awards-title">Young Scientists Funds, National Natural Science Foundation of China (NSFC)</div>
+              <div class="awards-sub">Principal Investigator; Grant: 300,000 RMB</div>
             </div>
-            <div class="teach-right">2022</div>
+            <div class="awards-right">2022</div>
           </div>
-          <div class="teach-item">
-            <div class="teach-left">
-              <div class="teach-title">General Program of NSFC</div>
-              <div class="teach-sub">Participant; Grant: 300,000 RMB</div>
+          <div class="awards-item">
+            <div class="awards-left">
+              <div class="awards-title">NSFC–STINT Joint Research Program</div>
+              <div class="awards-sub">Participant; Grant: 400,000 RMB (NSFC) and 599,200 SEK (STINT)</div>
             </div>
-            <div class="teach-right">2021</div>
+            <div class="awards-right">2022</div>
           </div>
-          <div class="teach-item">
-            <div class="teach-left">
-              <div class="teach-title">Overseas High-Caliber Personnel, Shenzhen</div>
-              <div class="teach-sub">Grant of 1,000,000 RMB from the Shenzhen government</div>
+          <div class="awards-item">
+            <div class="awards-left">
+              <div class="awards-title">General Program of NSFC</div>
+              <div class="awards-sub">Participant; Grant: 300,000 RMB</div>
             </div>
-            <div class="teach-right">2021</div>
+            <div class="awards-right">2021</div>
           </div>
-          <div class="teach-item">
-            <div class="teach-left">
-              <div class="teach-title">Membership in Beta Gamma Sigma</div>
-              <div class="teach-sub"></div>
+          <div class="awards-item">
+            <div class="awards-left">
+              <div class="awards-title">Overseas High-Caliber Personnel, Shenzhen</div>
+              <div class="awards-sub">Grant of 1,000,000 RMB from the Shenzhen government</div>
             </div>
-            <div class="teach-right">2021</div>
+            <div class="awards-right">2021</div>
           </div>
-          <div class="teach-item">
-            <div class="teach-left">
-              <div class="teach-title">FBE PhD Research Excellence Award, The University of Hong Kong</div>
-              <div class="teach-sub"></div>
+          <div class="awards-item">
+            <div class="awards-left">
+              <div class="awards-title">Membership in Beta Gamma Sigma</div>
+              <div class="awards-sub"></div>
             </div>
-            <div class="teach-right">2020</div>
+            <div class="awards-right">2021</div>
+          </div>
+          <div class="awards-item">
+            <div class="awards-left">
+              <div class="awards-title">FBE PhD Research Excellence Award, The University of Hong Kong</div>
+              <div class="awards-sub"></div>
+            </div>
+            <div class="awards-right">2020</div>
           </div>
         </div>
-          
   ############# 🟣 Teaching #########################################################
   - block: markdown
     id: teaching
