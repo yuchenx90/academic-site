@@ -320,7 +320,7 @@ sections:
               </div>
               <div class="awards-right">2022</div>
             </div>
-            <div class="awards-item force-grid">
+            <div class="awards-item row-2col">
               <div class="awards-left">
                 <div class="awards-title">NSFC–STINT Joint Research Program</div>
                 <div class="awards-sub">Participant; Grant: 400,000 RMB (NSFC) and 599,200 SEK (STINT)</div>
