@@ -165,7 +165,7 @@ sections:
           </p>
           <p class="pub-ref" style="margin:0 0 6px;">
             <em>Management Science</em>，2025
-          </p>
+          </p></strong>
           <p class="pub-abstract">We examine how the supply of talent affected financial development based on an experiment that abruptly changed the allocation of talent in historical China. Under the meritocratic civil examination system, government service was the main employment for the Chinese intellectuals. The abolition of this system in 1905 reduced the status and wealth attached to government service, which led the intellectuals to turn to modern banking as a high-status sector of employment. We find that regions where there were more candidates for the civil examination produced more financial professionals after 1905, which translated to a greater development of modern banking.</p>
           <p class="pub-links">
             [<a href="paper/Keju.pdf" target="_blank" rel="noopener">Paper</a>]
