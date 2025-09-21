@@ -37,12 +37,11 @@ sections:
           .pub-links a { color:#555; text-decoration-color:#bbb; }
 
           /* 统一：两块区域都占满容器宽 */
-          #.teach, .awards { width: 100%; }
-          :root { --col-left: 200px;} 
+          .teach, .awards { width: 100%; }
           /* 统一两栏布局：左自适应，右固定宽度 */
           .row-2col {
             display:grid;
-            grid-template-columns: minmax(0,1fr) var(--col-left);
+            grid-template-columns: minmax(720px, 1fr) max-content;
             align-items:flex-start;
             gap:16px;
             padding:10px 0;
