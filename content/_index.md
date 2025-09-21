@@ -181,10 +181,7 @@ sections:
           <a href="https://www.hoover.org/profiles/ross-levine" target="_blank" rel="noopener">Ross Levine</a>,
           <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>, and
           <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>.
-        </p>
-        <p class="pub-ref" style="margin:0 0 6px;">
-          <strong><em>The Journal of Finance</em></strong>，2023 
-        </p>
+          <p class="pub-ref" style="margin:0 0 6px;"><strong><em>The Journal of Finance</em></strong>，2023 
           <p class="pub-abstract">The primary challenge to assessing the legal origins view of comparative financial development is identifying exogenous changes in legal systems. We assemble new data on Shanghai's British and French concessions between 1845 and 1936. Two regime changes altered British and French legal jurisdiction over their respective concessions. By examining the changing application of different legal traditions to adjacent neighborhoods within the same city and controlling for military, economic, and political characteristics, we offer new evidence consistent with the legal origins view: the financial development advantage in the British concession widened after Western legal jurisdiction intensified and narrowed after it abated.</p>
           <p class="pub-links">
             [<a href="paper/Shanghai.pdf" target="_blank" rel="noopener">Paper</a>]
