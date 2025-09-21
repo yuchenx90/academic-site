@@ -56,7 +56,7 @@ sections:
                 </svg>
               </span>
               <a href="cv/CV_yuchen.pdf" target="_blank" rel="noopener"
-                 style="color:#555; text-decoration-color:#bbb;">Download my CV (PDF)</a>
+                 style="color:#555; text-decoration-color:#bbb;">Download my CV</a>
             </span>
             <a href="https://www.unsw.edu.au/staff/yuchen-xu" target="_blank" rel="noopener"
                style="display:inline-flex; align-items:center; gap:6px; color:#555; text-decoration-color:#bbb;">
