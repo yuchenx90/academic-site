@@ -39,7 +39,7 @@ sections:
           /* 统一两栏布局：左自适应，右固定宽度 */
           .row-2col {
             display:grid;
-            grid-template-columns: minmax(360px, 1fr) max-content;
+            grid-template-columns: minmax(360px, 720px) max-content;
             align-items:flex-start;
             gap:16px;
             padding:10px 0;
