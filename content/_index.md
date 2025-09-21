@@ -211,7 +211,7 @@ sections:
     content:
       title: "Working Papers"
       text: |-
-        <!-- Paper 1 -->
+        <!-- Bonds of Love -->
         <div class="pub-item">
           <p class="pub-ref">
             <strong>Bonds of Love: Patriotism and the Rise of Modern Banks. With <em>Yuchen Sun</em> and <em>Wanda Wang</em>.</strong>
@@ -222,18 +222,28 @@ sections:
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4720595" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
-        <!-- Paper 2 -->
+        <!-- Misselling -->
         <div class="pub-item">
           <p class="pub-ref">
             <strong>Misselling in Financial Advice. With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.</strong>
           </p>
           <p class="pub-abstract"> Financial advisors often steer clients toward high-commission products, leading to poor advice quality. Yet, uncertain investment returns make it challenging to detect deliberate misselling. Our study leverages Chinese Wealth Management Products (WMPs) with implicit guarantees, enabling clear identification of misselling as recommending objectively suboptimal low-return products. Using transaction data from a large Chinese retail bank, we document pervasive misselling (74%). To capture the role of advisors, we find that performance pressure, peer effects, and promotion prospects drive misselling, while client complaints deter it. Stressed advisors particularly target inexperienced clients and private banking clients, and female advisor-male client dyads.</p>
           <p class="pub-links">
-            [<a href="paper/Bonds of love.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="paper/Misselling.pdf" target="_blank" rel="noopener">Paper</a>]
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5368923" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>        
-
+        <!-- Birds -->
+        <div class="pub-item">
+          <p class="pub-ref">
+            <strong>From Fine to Feathers: Enforcement Stringency, Protectionism, and Biodiversity. With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.</strong>
+          </p>
+          <p class="pub-abstract"> Using birdwatching records and staggered reforms that enhance the independence of China’s Environmental Protection Bureaus (EPBs) during 2003-2019, this paper underscores the importance of policy enforcement stringency for biodiversity conservation. We find that greater EPB independence increased bird species richness by 22–32% and bird abundance by 35–46%. The reforms reduced local protectionism, leading to more penalties on privately owned enterprises and incentivizing them to invest in green R&D. However, state-owned enterprises continue to avoid regulatory scrutiny due to persistent central protectionism. Our findings highlight the substantial ecological costs of weak enforcement resulting from incomplete administrative independence.</p>
+          <p class="pub-links">
+            [<a href="paper/Birds.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5023110" target="_blank" rel="noopener">Link</a>]
+          </p>
+        </div>        
 
 
   ############# Funds & Awards #########################################################
