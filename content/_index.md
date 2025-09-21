@@ -30,7 +30,7 @@ sections:
           .prose h1, .prose h2, .prose h3 { color:#111 !important; font-weight:700; }
         </style>
 
-  # Bio
+  ##################################### Bio ########################################################################
   - block: markdown
     id: bio
     content:
@@ -135,7 +135,7 @@ sections:
 
 
 
-  # Publications
+  ############# Publications #########################################################
   - block: markdown
     id: publications
     content:
@@ -145,7 +145,7 @@ sections:
         - Paper 2. <em>Journal of Financial Economics</em>, 2022.  
         - Paper 3. <em>Management Science</em>, 2021.  
 
-  # Working Papers
+  ############# Working Papers #########################################################
   - block: markdown
     id: working-papers
     content:
@@ -154,7 +154,7 @@ sections:
         - Title 1. Under review at [journal].  
         - Title 2. Draft in progress.  
 
-  # Funds & Awards
+  ############# Funds & Awards #########################################################
   - block: markdown
     id: funds-awards
     content:
@@ -163,7 +163,7 @@ sections:
         - 2024. Awarded XYZ Research Grant.  
         - 2023. Received Best Paper Prize at ABC Conference.  
 
-  # Teaching
+  ############# Teaching #########################################################
   - block: markdown
     id: teaching
     content:
