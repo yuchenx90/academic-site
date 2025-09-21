@@ -7,3 +7,8 @@ https://github.com/HugoBlox/theme-academic-cv
 https://academic-demo.netlify.app/
 
 Because its single page, now all contents are in content/_index.md
+
+If allow google search:
+Change static/robots.txt to 
+User-agent: *
+Allow: /
