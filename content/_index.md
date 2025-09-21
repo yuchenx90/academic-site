@@ -32,26 +32,33 @@ sections:
           }
           .pub-links{ margin:0 }
           .pub-links a{ color:#555; text-decoration-color:#bbb }
-          /* 两列布局（左内容 + 右日期），Awards/Teaching 共用 */
+          /* 统一两栏布局：左=自适应，右=固定宽度 */
           .row-2col{
             display:grid;
-            grid-template-columns: minmax(200px, 1fr) var(--right-col); /* 修改为更稳定的布局 */
+            grid-template-columns: minmax(0,1fr) 220px; /* ← 右列固定 220px，可改 200–240 */
             align-items:flex-start;
             gap:16px;
             padding:10px 0;
           }
-          .teach-right,.awards-right{ text-align:right; color:#444; white-space:nowrap }
+          /* 右侧列：Teaching & Awards 统一右对齐 */
+          .row-2col .teach-right,
+          .row-2col .awards-right{
+            justify-self:end;
+            text-align:right;
+            white-space:nowrap;        /* 防止年份断行 */
+            color:#444;
+          }
           .teach-title,.awards-title{ font-weight:600 }
           .teach-sub,.awards-sub{ color:#555; margin-top:4px }
-          /* 窄屏堆叠 */
-          @media (max-width:640px){
-            .row-2col{ grid-template-columns:1fr }
-            .teach-right,.awards-right{ text-align:left; white-space:normal }
-          }
-          /* 章节内容区域的对齐 */
-          .section-content {
-            padding-left: 20px;
-          }
+         /* 窄屏时改成上下堆叠 */
+          @media (max-width: 640px){
+            .row-2col{ grid-template-columns: 1fr; }
+            .row-2col .teach-right,
+            .row-2col .awards-right{
+              justify-self:start;
+              text-align:left;
+              white-space:normal;
+            }
         </style>
   ##################################### Bio ########################################################################
   - block: markdown
@@ -261,7 +268,7 @@ sections:
       title: "Teaching"
       text: |-
         <!--html-->
-          <div class="teach section-content">
+          <div class="teach">
             <div class="teach-item row-2col">
               <div class="teach-left">
                 <div class="teach-title">International Corporate Finance</div>
@@ -291,7 +298,7 @@ sections:
     content:
       title: "Grants & Awards"
       text: |-
-          <div class="awards section-content">
+          <div class="awards">
             <div class="awards-item row-2col">
               <div class="awards-left">
                 <div class="awards-title">Outstanding Paper Award in Finance (China), China Finance Academic Alliance</div>
