@@ -52,11 +52,10 @@ sections:
           .row-2col{ grid-template-columns:1fr }
           .teach-right,.awards-right{ text-align:left; white-space:normal }
         }
-          /* 章节内容区域的对齐 */
-      .section-content {
-        /* 你可以根据需要调整左侧的内边距，来对齐到你希望的位置 */
-        padding-left: 20px; 
-      }
+       /* 章节内容区域的对齐 */
+        .section-content {
+          padding-left: 20px; 
+        }
               </style>
   ##################################### Bio ########################################################################
   - block: markdown
