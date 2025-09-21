@@ -9,42 +9,29 @@ sections:
       title: ""
       text: |
         <style>
-          /* 字体与整体宽度 */
-          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-          :root{ --site-max:1100px; --right-col:170px; }  /* 右侧日期统一宽度，可改数值微调 */
-          .hb-section .container,.container,.prose,.max-w-prose,.max-w-3xl,.max-w-4xl{
-            max-width:min(var(--site-max),92vw) !important;
+          /* 统一页面最大宽度与左右内边距 */
+          :root { --site-max: 1100px; }
+          .section-inner{
+            max-width: min(var(--site-max), 92vw);
+            margin: 0 auto;
+            padding: 0 16px;
           }
-          html,body{
-            font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-            color:#111;
-            -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+          /* 主题里的 prose 会给内部元素做左右“视觉边距”，这里强制归零保持对齐 */
+          .section-inner > *{
+            margin-left: 0 !important;
+            margin-right: 0 !important;
           }
-          .prose,.prose h1,.prose h2,.prose h3{ color:#111 }
-          /* 平滑锚点 */
-          html{ scroll-behavior:smooth }
-          [id]{ scroll-margin-top:72px }
-          /* Publications */
-          .pub-item{ margin:18px 0 }
-          .pub-ref{ margin:0 0 6px }
-          .pub-abstract{
-            color:#616161; margin:4px 0 8px; padding-left:.9rem; border-left:2px solid #e5e7eb; line-height:1.6;
-          }
-          .pub-links{ margin:0 }
-          .pub-links a{ color:#555; text-decoration-color:#bbb }
-          /* 两列布局（左内容 + 右日期），Awards/Teaching 共用 */
-          .row-2col{
-            display:grid; grid-template-columns:1fr var(--right-col);
-            align-items:flex-start; gap:16px; padding:10px 0;
-          }
-          .teach-right,.awards-right{ text-align:right; color:#444; white-space:nowrap }
-          .teach-title,.awards-title{ font-weight:600 }
-          .teach-sub,.awards-sub{ color:#555; margin-top:4px }
-          /* 窄屏堆叠 */
-          @media (max-width:640px){
-            .row-2col{ grid-template-columns:1fr }
-            .teach-right,.awards-right{ text-align:left; white-space:normal }
-          }
+          /* 标题左对齐，避免居中造成错位的观感 */
+          .hb-section h2, .hb-section h3{ text-align: left !important; }
+          /* 你之前的样式保留 */
+          html { scroll-behavior: smooth; }
+          [id] { scroll-margin-top: 72px; }
+          .pub-item{ margin:18px 0; }
+          .pub-abstract{ color:#616161; margin:4px 0 8px; padding-left:0.9rem; border-left:2px solid #e5e7eb; line-height:1.6; }
+          .pub-links a{ color:#555; text-decoration-color:#bbb; }
+          .teach, .awards{ border-top:1px solid #e5e7eb; padding-top:10px; margin-top:6px; }
+          .row-2col{ display:grid; grid-template-columns: 1fr auto; align-items:flex-start; gap:16px; padding:10px 0; }
+          @media (max-width: 640px){ .row-2col{ grid-template-columns: 1fr; } }
         </style>
 
   ##################################### Bio ########################################################################
@@ -254,69 +241,71 @@ sections:
     content:
       title: "Grants & Awards"
       text: |-
-        <div class="awards">
-          <div class="awards-item row-2col">
-            <div class="awards-left">
-              <div class="awards-title">Outstanding Paper Award in Finance (China), China Finance Academic Alliance</div>
-              <div class="awards-sub">Awarded for <em>The Allocation of Talent and Financial Development, 1897–1936</em>.</div>
+        <div class="section-inner">
+          <div class="awards">
+            <div class="awards-item row-2col">
+              <div class="awards-left">
+                <div class="awards-title">Outstanding Paper Award in Finance (China), China Finance Academic Alliance</div>
+                <div class="awards-sub">Awarded for <em>The Allocation of Talent and Financial Development, 1897–1936</em>.</div>
+              </div>
+              <div class="awards-right">2025</div>
             </div>
-            <div class="awards-right">2025</div>
-          </div>
-          <div class="awards-item row-2col">
-            <div class="awards-left">
-              <div class="awards-title">UNSW Dean’s Research Fellowship</div>
-              <div class="awards-sub">Grant: 10,000 AUD</div>
+            <div class="awards-item row-2col">
+              <div class="awards-left">
+                <div class="awards-title">UNSW Dean’s Research Fellowship</div>
+                <div class="awards-sub">Grant: 10,000 AUD</div>
+              </div>
+              <div class="awards-right">2025</div>
             </div>
-            <div class="awards-right">2025</div>
-          </div>
-          <div class="awards-item row-2col">
-            <div class="awards-left">
-              <div class="awards-title">PWC5355 Best Paper Awards, PwC</div>
-              <div class="awards-sub">Awarded for <em>The Legal Origins of Financial Development: Evidence from the Shanghai Concessions</em>.</div>
+            <div class="awards-item row-2col">
+              <div class="awards-left">
+                <div class="awards-title">PWC5355 Best Paper Awards, PwC</div>
+                <div class="awards-sub">Awarded for <em>The Legal Origins of Financial Development: Evidence from the Shanghai Concessions</em>.</div>
+              </div>
+              <div class="awards-right">2024</div>
             </div>
-            <div class="awards-right">2024</div>
-          </div>
-          <div class="awards-item row-2col">
-            <div class="awards-left">
-              <div class="awards-title">Young Scientists Funds, National Natural Science Foundation of China (NSFC)</div>
-              <div class="awards-sub">Principal Investigator; Grant: 300,000 RMB</div>
+            <div class="awards-item row-2col">
+              <div class="awards-left">
+                <div class="awards-title">Young Scientists Funds, National Natural Science Foundation of China (NSFC)</div>
+                <div class="awards-sub">Principal Investigator; Grant: 300,000 RMB</div>
+              </div>
+              <div class="awards-right">2022</div>
             </div>
-            <div class="awards-right">2022</div>
-          </div>
-          <div class="awards-item row-2col">
-            <div class="awards-left">
-              <div class="awards-title">NSFC–STINT Joint Research Program</div>
-              <div class="awards-sub">Participant; Grant: 400,000 RMB (NSFC) and 599,200 SEK (STINT)</div>
+            <div class="awards-item row-2col">
+              <div class="awards-left">
+                <div class="awards-title">NSFC–STINT Joint Research Program</div>
+                <div class="awards-sub">Participant; Grant: 400,000 RMB (NSFC) and 599,200 SEK (STINT)</div>
+              </div>
+              <div class="awards-right">2022</div>
             </div>
-            <div class="awards-right">2022</div>
-          </div>
-          <div class="awards-item row-2col">
-            <div class="awards-left">
-              <div class="awards-title">General Program of NSFC</div>
-              <div class="awards-sub">Participant; Grant: 300,000 RMB</div>
+            <div class="awards-item row-2col">
+              <div class="awards-left">
+                <div class="awards-title">General Program of NSFC</div>
+                <div class="awards-sub">Participant; Grant: 300,000 RMB</div>
+              </div>
+              <div class="awards-right">2021</div>
             </div>
-            <div class="awards-right">2021</div>
-          </div>
-          <div class="awards-item row-2col">
-            <div class="awards-left">
-              <div class="awards-title">Overseas High-Caliber Personnel, Shenzhen</div>
-              <div class="awards-sub">Grant of 1,000,000 RMB from the Shenzhen government</div>
+            <div class="awards-item row-2col">
+              <div class="awards-left">
+                <div class="awards-title">Overseas High-Caliber Personnel, Shenzhen</div>
+                <div class="awards-sub">Grant of 1,000,000 RMB from the Shenzhen government</div>
+              </div>
+              <div class="awards-right">2021</div>
             </div>
-            <div class="awards-right">2021</div>
-          </div>
-          <div class="awards-item row-2col">
-            <div class="awards-left">
-              <div class="awards-title">Membership in Beta Gamma Sigma</div>
-              <div class="awards-sub"></div>
+            <div class="awards-item row-2col">
+              <div class="awards-left">
+                <div class="awards-title">Membership in Beta Gamma Sigma</div>
+                <div class="awards-sub"></div>
+              </div>
+              <div class="awards-right">2021</div>
             </div>
-            <div class="awards-right">2021</div>
-          </div>
-          <div class="awards-item row-2col">
-            <div class="awards-left">
-              <div class="awards-title">FBE PhD Research Excellence Award, The University of Hong Kong</div>
-              <div class="awards-sub"></div>
+            <div class="awards-item row-2col">
+              <div class="awards-left">
+                <div class="awards-title">FBE PhD Research Excellence Award, The University of Hong Kong</div>
+                <div class="awards-sub"></div>
+              </div>
+              <div class="awards-right">2020</div>
             </div>
-            <div class="awards-right">2020</div>
           </div>
         </div>
   ############# 🟣 Teaching #########################################################
@@ -325,27 +314,29 @@ sections:
     content:
       title: "Teaching"
       text: |-
-        <div class="teach">
-          <div class="teach-item row-2col">
-            <div class="teach-left">
-              <div class="teach-title">International Corporate Finance / International Business Finance</div>
-              <div class="teach-sub">to undergraduates and masters</div>
+        <div class="section-inner">
+          <div class="teach">
+            <div class="teach-item row-2col">
+              <div class="teach-left">
+                <div class="teach-title">International Corporate Finance / International Business Finance</div>
+                <div class="teach-sub">to undergraduates and masters</div>
+              </div>
+              <div class="teach-right">2023–present, spring</div>
             </div>
-            <div class="teach-right">2023–present, spring</div>
-          </div>
-          <div class="teach-item row-2col">
-            <div class="teach-left">
-              <div class="teach-title">Financial History</div>
-              <div class="teach-sub">to undergraduates, masters, and MBAs; teaching evaluation 98/100</div>
+            <div class="teach-item row-2col">
+              <div class="teach-left">
+                <div class="teach-title">Financial History</div>
+                <div class="teach-sub">to undergraduates, masters, and MBAs; teaching evaluation 98/100</div>
+              </div>
+              <div class="teach-right">2020–2022, fall and spring</div>
             </div>
-            <div class="teach-right">2020–2022, fall and spring</div>
-          </div>
-          <div class="teach-item row-2col">
-            <div class="teach-left">
-              <div class="teach-title">Corporate Finance</div>
-              <div class="teach-sub">to masters</div>
+            <div class="teach-item row-2col">
+              <div class="teach-left">
+                <div class="teach-title">Corporate Finance</div>
+                <div class="teach-sub">to masters</div>
+              </div>
+              <div class="teach-right">2020–2022, fall and spring</div>
             </div>
-            <div class="teach-right">2020–2022, fall and spring</div>
           </div>
         </div>
 ---
