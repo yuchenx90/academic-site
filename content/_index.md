@@ -76,11 +76,11 @@ sections:
               <span>UNSW staff profile</span>
             </a>
           </div>
-          <!-- 两栏：Education | Languages（并排，标题更小） -->
+          <!-- 两栏：Education | Languages（并排） -->
           <div style="display:flex; gap:36px; flex-wrap:wrap; align-items:flex-start; margin-top:18px;">
             <!-- Education -->
             <div style="flex:1; min-width:280px;">
-              <h3 style="margin:0 0 8px; font-weight:700; font-size:1rem; line-height:1.5; display:flex; align-items:center; gap:8px;">
+              <h3 style="margin:0 0 8px; font-weight:700; font-size:1em; line-height:inherit; display:flex; align-items:center; gap:8px;">
                 <span aria-hidden="true" style="line-height:1;">
                   <!-- mortarboard（标题前的小帽子） -->
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
@@ -139,7 +139,7 @@ sections:
             </div>
             <!-- Languages -->
             <div style="flex:1; min-width:280px;">
-              <h3 style="margin:0 0 8px; font-weight:700; font-size:1rem; line-height:1.5; display:flex; align-items:center; gap:8px;">
+              <h3 style="margin:0 0 8px; font-weight:700; font-size:1em; line-height:inherit; display:flex; align-items:center; gap:8px;">
                 <span aria-hidden="true" style="line-height:1;">
                   <!-- 语言图标（地球） -->
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
