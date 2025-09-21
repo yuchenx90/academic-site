@@ -221,7 +221,7 @@ sections:
     content:
       title: "Working Papers"
       text: |-
-        <!-- Bonds of Love -->
+        <!-- Paper 1 -->
         <div class="pub-item">
           <p class="pub-ref">
             <strong>Bonds of Love: Patriotism and the Rise of Modern Banks. With <em>Yuchen Sun</em> and <em>Wanda Wang</em>.</strong>
@@ -232,7 +232,7 @@ sections:
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4720595" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
-        <!-- Misselling -->
+        <!-- Paper 2 -->
         <div class="pub-item">
           <p class="pub-ref">
             <strong>Misselling in Financial Advice. With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.</strong>
@@ -243,7 +243,7 @@ sections:
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5368923" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>        
-        <!-- Birds -->
+        <!-- Paper 3 -->
         <div class="pub-item">
           <p class="pub-ref">
             <strong>From Fine to Feathers: Enforcement Stringency, Protectionism, and Biodiversity. With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.</strong>
@@ -265,7 +265,7 @@ sections:
         <div class="teach">
           <div class="teach-item row-2col">
             <div class="teach-left">
-              <div class="teach-title">International Corporate Finance / International Business Finance</div>
+              <div class="teach-title">International Corporate Finance</div>
               <div class="teach-sub">Undergraduate and Master’s-level students</div>
             </div>
             <div class="teach-right">2023–present</div>
