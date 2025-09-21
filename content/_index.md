@@ -80,7 +80,6 @@ sections:
           <div style="flex:1; min-width:260px;">
             <h3 style="margin:0 0 8px; font-weight:700;">Education</h3>
             <ul style="margin:0; padding-left:0; list-style:none;">
-        
               <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
                 <span aria-hidden="true" style="line-height:1;">
                   <!-- mortarboard -->
@@ -105,7 +104,6 @@ sections:
                   <span style="color:#555;">Paris-Sorbonne & Paris Descartes (joint)</span>
                 </span>
               </li>
-        
               <li style="display:flex; gap:10px; align-items:flex-start; margin:0 0 10px;">
                 <span aria-hidden="true" style="line-height:1;">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +115,6 @@ sections:
                   <span style="color:#555;">Université Paris-Dauphine</span>
                 </span>
               </li>
-        
               <li style="display:flex; gap:10px; align-items:flex-start; margin:0;">
                 <span aria-hidden="true" style="line-height:1;">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
