@@ -48,13 +48,39 @@ sections:
           </figure>
           <div style="flex:1; min-width:280px;">
             Dr. Yuchen Xu is an Assistant Professor (Senior Lecturer) in Finance at UNSW Business School. Previously, she was an Assistant Professor at Peking University HSBC Business School. Dr. Xu completed her undergraduate and postgraduate studies in Paris, where she received dual master's degrees in Financial Engineering (2014) and Economic Psychology (2015). After that, she obtained her Ph.D in Finance from the University of Hong Kong (2020). Her research interests span across quantitative financial history and empirical corporate finance. She places special emphasis on identifying the foundational factors that influence the enduring development of finance, in particular at its genesis. Her findings have been published in prestigious international journals, including the <em>Journal of Finance</em>, the <em>Journal of Financial Economics</em>, and <em>Management Science</em> among others.
-          <p style="margin-top:16px;">
-            <a href="cv/CV_yuchen.pdf" target="_blank" rel="noopener">My CV </a>
-          </p>
-          <p>
-            <a href="https://www.unsw.edu.au/staff/yuchen-xu" target="_blank" rel="noopener">UNSW faculty profile</a>
-          </p>
-              </div>
+            <p style="margin-top:16px;">
+              <span aria-hidden="true" style="display:inline-block; vertical-align:-0.15em; margin-right:6px;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 3v10.586l3.293-3.293 1.414 1.414L12 17.414l-4.707-4.707 1.414-1.414L11 13.586V3h2zM5 19h14v2H5z"/>
+                </svg>
+              </span>
+              Download my <a href=cv/CV_yuchen.pdf" target="_blank" rel="noopener">CV</a>
+            </p>
+          
+            <p>
+              <span aria-hidden="true" style="display:inline-block; vertical-align:-0.15em; margin-right:6px;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm7.93 9h-3.12a15.7 15.7 0 0 0-1.1-4.11A8.02 8.02 0 0 1 19.93 11zM12 4a13.7 13.7 0 0 1 1.7 5H10.3A13.7 13.7 0 0 1 12 4zM8.29 6.89A15.7 15.7 0 0 0 7.19 11H4.07a8.02 8.02 0 0 1 4.22-4.11zM4.07 13h3.12c.24 1.43.62 2.83 1.1 4.11A8.02 8.02 0 0 1 4.07 13zM12 20a13.7 13.7 0 0 1-1.7-5h3.4A13.7 13.7 0 0 1 12 20zm3.71-2.89c.49-1.28.86-2.68 1.1-4.11h3.12a8.02 8.02 0 0 1-4.22 4.11z"/>
+                </svg>
+              </span>
+              <a href="https://www.unsw.edu.au/staff/yuchen-xu" target="_blank" rel="noopener">UNSW staff profile</a>
+            </p>
+          
+            <!-- Sections -->
+            <h3 style="margin-top:22px; font-weight:700;">Education</h3>
+            <ul>
+              <li>Ph.D. in Finance, The University of Hong Kong (2020)</li>
+              <li>MSc in Financial Engineering, Paris (2014)</li>
+              <li>MA in Economic Psychology, Paris (2015)</li>
+            </ul>
+          
+            <h3 style="margin-top:16px; font-weight:700;">Languages</h3>
+            <ul>
+              <li>English</li>
+              <li>Mandarin Chinese</li>
+              <li>French</li>
+            </ul>
+          </div>
         </div>
 
   # Publications
