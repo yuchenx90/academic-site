@@ -27,13 +27,6 @@ sections:
           /* 平滑锚点 */
           html { scroll-behavior: smooth; }
           [id] { scroll-margin-top: 72px; }
-        /* Bio 文本两端对齐 */
-          #bio .bio-text{
-            text-align: justify;
-            text-justify: inter-word;   /* 英文更均匀 */
-            hyphens: auto;
-            -webkit-hyphens: auto;
-          }
           /* Publications */
           .pub-item { margin:18px 0; }
           .pub-ref { margin:0 0 6px; }
@@ -42,14 +35,7 @@ sections:
           }
           .pub-links { margin:0; }
           .pub-links a { color:#555; text-decoration-color:#bbb; }
-          /* 只对正文段落两端对齐 */
-          .prose p,
-          .pub-abstract {
-            text-align: justify;
-            text-justify: inter-word;   /* 英文更均匀 */
-            hyphens: auto;              /* 自动断词，减少大空隙 */
-            -webkit-hyphens: auto;
-          }
+
           /* 统一：两块区域都占满容器宽 */
           #.teach, .awards { width: 100%; }
           :root { --col-left: 200px;} 
@@ -81,14 +67,6 @@ sections:
               white-space:normal;
             }
           }
-          /* 以下保持左对齐，避免难看：标题、列表、条目行、两栏布局 */
-          .prose h1, .prose h2, .prose h3,
-          ul, ol, li, figcaption,
-          .pub-ref, .pub-links,
-          .teach-title, .teach-sub, .teach-right,
-          .awards-title, .awards-sub, .awards-right {
-            text-align: left !important;
-          }
         </style>
   ##################################### Bio ########################################################################
   - block: markdown
@@ -113,7 +91,7 @@ sections:
               </div>
             </figcaption>
           </figure>
-          <div class="bio-text" style="flex:1; min-width:280px;">
+          <div style="flex:1; min-width:280px;">
             Dr. Yuchen Xu is an Assistant Professor (Senior Lecturer) in Finance at UNSW Business School. Previously, she was an Assistant Professor at Peking University HSBC Business School. Dr. Xu completed her undergraduate and postgraduate studies in Paris, where she received dual master's degrees in Financial Engineering (2014) and Economic Psychology (2015). After that, she obtained her Ph.D in Finance from the University of Hong Kong (2020). Her research interests span across quantitative financial history and empirical corporate finance. She places special emphasis on identifying the foundational factors that influence the enduring development of finance, in particular at its genesis. Her findings have been published in prestigious international journals, including the <strong><em>Journal of Finance</em></strong>, the <strong><em>Journal of Financial Economics</em></strong>, and <strong><em>Management Science</em></strong> among others.
           <div style="display:flex; gap:24px; flex-wrap:wrap; align-items:center; margin-top:16px;">
             <span style="display:inline-flex; align-items:center; gap:6px;">
