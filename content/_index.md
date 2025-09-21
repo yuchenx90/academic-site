@@ -191,7 +191,7 @@ sections:
         <!-- Pub 3 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
-           1. The Telegraph and Modern Banking Development, 1881–1936. With
+           3. The Telegraph and Modern Banking Development, 1881–1936. With
             <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>,
             <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>, and
             <a href="https://scholar.google.com/citations?user=wL_q58YAAAAJ&hl=en" target="_blank" rel="noopener">Yuchen Sun</a>.
