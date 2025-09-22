@@ -257,7 +257,7 @@ sections:
         <!-- Bird diversity -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>From Fine to Feathers: Enforcement Stringency, Protectionism, and Biodiversity.</strong> With <em>Panyu Li</em> and <em>Luping Yug</em>.
+            <strong>From Fine to Feathers: Enforcement Stringency, Protectionism, and Biodiversity.</strong> With <em>Panyu Li</em> and <em>Luping Yu</em>.
           </p>
           <p class="pub-abstract"> Using birdwatching records and staggered reforms that enhance the independence of China’s Environmental Protection Bureaus (EPBs) during 2003-2019, this paper underscores the importance of policy enforcement stringency for biodiversity conservation. We find that greater EPB independence increased bird species richness by 22–32% and bird abundance by 35–46%. The reforms reduced local protectionism, leading to more penalties on privately owned enterprises and incentivizing them to invest in green R&D. However, state-owned enterprises continue to avoid regulatory scrutiny due to persistent central protectionism. Our findings highlight the substantial ecological costs of weak enforcement resulting from incomplete administrative independence.</p>
           <p class="pub-links">
