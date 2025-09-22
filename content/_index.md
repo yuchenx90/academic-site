@@ -232,7 +232,7 @@ sections:
     content:
       title: "Working Papers"
       text: |-
-        <!-- Paper 1 -->
+        <!-- Bonds of love -->
         <div class="pub-item">
           <p class="pub-ref">
             <strong>Bonds of Love: Patriotism and the Rise of Modern Banks.</strong> With <em>Yuchen Sun</em> and <em>Wanda Wang</em>.
@@ -243,7 +243,7 @@ sections:
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4720595" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
-        <!-- Paper 2 -->
+        <!-- Misselling -->
         <div class="pub-item">
           <p class="pub-ref">
             <strong>Misselling in Financial Advice.</strong> With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.
@@ -254,7 +254,7 @@ sections:
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5368923" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>        
-        <!-- Paper 3 -->
+        <!-- Bird diversity -->
         <div class="pub-item">
           <p class="pub-ref">
             <strong>From Fine to Feathers: Enforcement Stringency, Protectionism, and Biodiversity.</strong> With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.
@@ -264,7 +264,43 @@ sections:
             [<a href="paper/Birds.pdf" target="_blank" rel="noopener">Paper</a>]
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5023110" target="_blank" rel="noopener">Link</a>]
           </p>
-        </div>        
+        </div>
+        
+        <!-- Media -->
+        <div class="pub-item">
+          <p class="pub-ref">
+            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.
+          </p>
+          <p class="pub-abstract"> We examine whether and how firms leverage social media outlets to counteract the impact of negative news coverage in traditional media. Using a sample of Chinese public firms with established connections to social media outlets, we find that the connected outlets actively promote favorable narratives about the firms immediately following unfavorable coverage in traditional media. This effect is more pronounced for firms with stronger incentives to stabilize stock prices or when managers face greater career concerns. Moreover, while traditional media coverage tends to highlight firms’ short-term underperformance, connected social media outlets shift the focus toward their long-term development prospects. Our findings highlight the role of social media in proactive corporate management of media narratives.</p>
+          <p class="pub-links">
+            [<a href="paper/Media.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198508" target="_blank" rel="noopener">Link</a>]
+          </p>
+        </div>  
+
+        <!-- Momentum -->
+        <div class="pub-item">
+          <p class="pub-ref">
+            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Xin Liu</em>, <em>Songtao Tan</em>, <em>Peixuan Yuan</em>, and <em>Yun Zhu</em> .
+          </p>
+          <p class="pub-abstract"> Stocks outperform on news days on average perform poorly on subsequent non-news days in China. This non-news reversal is stronger among stocks with retail dominance, less recent positive news, strong limits-to-arbitrage, and not found in the US. Our results suggest that past returns are contaminated by temporary attention-driven buying demand from retails on news days, and momentum disappears in China due to a cycle of retail overpricing on news days and institutional mispricing corrections on non-news days. Using a textual-based performance proxy, we find a strong underreaction to news in China. Investor heterogeneity also helps shape other anomalies in China.</p>
+          <p class="pub-links">
+            [<a href="paper/Momentum.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5130681" target="_blank" rel="noopener">Link</a>]
+          </p>
+        </div>
+    
+        <!-- Turkey -->
+        <div class="pub-item">
+          <p class="pub-ref">
+            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Xiangyang Gao</em>, <em>Chen Lin</em> and <em>Vesa Pursiainen</em>.
+          </p>
+          <p class="pub-abstract"> Depositor responses to a large currency shock vary depending on political views. Triggered by a combination of economic policies and a geopolitical conflict with the U.S., the Turkish lira depreciated 14% against the U.S. dollar on August 10, 2018. Using unique depositor-level micro data from a Turkish bank, we find that households significantly increase their share of deposits held in foreign currency after the currency shock, and the shift to FX is most pronounced in areas with low support for president Erdogan, while people in areas with high support are significantly less likely to move from lira to FX. These shifts to FX persist long after the shock, despite the lira regaining much of its lost value. The change in depositor currency preferences is associated with an increase in foreign-currency lending and increasing currency mismatches on Turkish banks' balance sheets, which translate into differences in bank profitability.</p>
+          <p class="pub-links">
+            [<a href="paper/Turkey.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3820498" target="_blank" rel="noopener">Link</a>]
+          </p>
+        </div>  
 
   ############# 🟣 Teaching #########################################################
   - block: markdown
