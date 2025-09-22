@@ -1,6 +1,6 @@
 # SITE SETUP
 appearance:
-  mode: system
+  mode: light
   color: indigo
 
 marketing:
