@@ -308,14 +308,14 @@ sections:
             <strong>Selected working in progress...</strong>
           </p>
           <p class="pub-abstract">
-          Revolution fund raising.
-          thnic Conflict and the Transformation of Gender Norms
-          Jewish diaspora and Shanghai's financial markets, 1930s.
-          Vietnam War and the Trade War.
-          Foreign Investment and Cross-country Input-Output Linkages.
-          Silver flow and trade shock, 1860-1910.
-          Information asymmetry and Fintech adoption.
-          Public gallery and Liquidity, 1970s HKSE
+          Revolution fund raising.<br>
+          Ethnic Conflict and the Transformation of Gender Norms.<br>
+          Jewish diaspora and Shanghai's financial markets, 1930s.<br>
+          Vietnam War and the Trade War.<br>
+          Foreign Investment and Cross-country Input-Output Linkages.<br>
+          Silver flow and trade shock, 1860-1910.<br>
+          Information asymmetry and Fintech adoption.<br>
+          Public gallery and Liquidity, 1970s HKSE.<br>
           </p>
 
         </div>
