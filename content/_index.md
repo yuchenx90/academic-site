@@ -368,9 +368,9 @@ sections:
             <div class="awards-item row-2col">
               <div class="awards-left">
                 <div class="awards-title">UNSW Dean’s Research Fellowship</div>
-                <div class="awards-sub">Grant: 10,000 AUD</div>
+                <div class="awards-sub">Grant: 10,000 AUD per year</div>
               </div>
-              <div class="awards-right">2025</div>
+              <div class="awards-right">2025-2026</div>
             </div>
             <div class="awards-item row-2col">
               <div class="awards-left">
