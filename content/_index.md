@@ -281,7 +281,7 @@ sections:
         <!-- Momentum -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Xin Liu</em>, <em>Songtao Tan</em>, <em>Peixuan Yuan</em>, and <em>Yun Zhu</em> .
+            <strong>Dissecting Momentum in China.</strong> With <em>Xin Liu</em>, <em>Songtao Tan</em>, <em>Peixuan Yuan</em>, and <em>Yun Zhu</em> .
           </p>
           <p class="pub-abstract"> Stocks outperform on news days on average perform poorly on subsequent non-news days in China. This non-news reversal is stronger among stocks with retail dominance, less recent positive news, strong limits-to-arbitrage, and not found in the US. Our results suggest that past returns are contaminated by temporary attention-driven buying demand from retails on news days, and momentum disappears in China due to a cycle of retail overpricing on news days and institutional mispricing corrections on non-news days. Using a textual-based performance proxy, we find a strong underreaction to news in China. Investor heterogeneity also helps shape other anomalies in China.</p>
           <p class="pub-links">
@@ -293,7 +293,7 @@ sections:
         <!-- Turkey -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Xiangyang Gao</em>, <em>Chen Lin</em> and <em>Vesa Pursiainen</em>.
+            <strong>Partisan Depositor Responses to a Currency Shock.</strong> With <em>Xiangyang Gao</em>, <em>Chen Lin</em> and <em>Vesa Pursiainen</em>.
           </p>
           <p class="pub-abstract"> Depositor responses to a large currency shock vary depending on political views. Triggered by a combination of economic policies and a geopolitical conflict with the U.S., the Turkish lira depreciated 14% against the U.S. dollar on August 10, 2018. Using unique depositor-level micro data from a Turkish bank, we find that households significantly increase their share of deposits held in foreign currency after the currency shock, and the shift to FX is most pronounced in areas with low support for president Erdogan, while people in areas with high support are significantly less likely to move from lira to FX. These shifts to FX persist long after the shock, despite the lira regaining much of its lost value. The change in depositor currency preferences is associated with an increase in foreign-currency lending and increasing currency mismatches on Turkish banks' balance sheets, which translate into differences in bank profitability.</p>
           <p class="pub-links">
