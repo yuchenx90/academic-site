@@ -23,7 +23,16 @@ sections:
             -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
           }
           .prose, .prose h1, .prose h2, .prose h3 { color:#111; }
-        
+
+          /* 去掉“style”这个空 section 的垂直留白 */
+          section#style,
+          section#style .container,
+          section#style .prose {
+            padding: 0 !important;
+            margin: 0 !important;
+            min-height: 0 !important;
+          }
+
           /* 平滑锚点 */
           html { scroll-behavior: smooth; }
           [id] { scroll-margin-top: 72px; }
