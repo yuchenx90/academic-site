@@ -65,13 +65,13 @@ sections:
             }
           }
          /* 去掉第一个“style”区块的多余空白 */
-      #style {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-        margin-top: 0 !important;
-        margin-bottom: 0 !important;
-      }
-    </style>
+          #style {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+          }
+        </style>
   ##################################### Bio ########################################################################
   - block: markdown
     id: bio
