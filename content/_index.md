@@ -71,6 +71,17 @@ sections:
             margin-top: 0 !important;
             margin-bottom: 0 !important;
           }
+          /* 让各板块更紧凑一点 */
+          #bio,
+          #publications,
+          #working-papers,
+          #teaching,
+          #grants-awards {
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+          }
         </style>
   ##################################### Bio ########################################################################
   - block: markdown
