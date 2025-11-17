@@ -24,15 +24,6 @@ sections:
           }
           .prose, .prose h1, .prose h2, .prose h3 { color:#111; }
 
-          /* 去掉“style”这个空 section 的垂直留白 */
-          section#style,
-          section#style .container,
-          section#style .prose {
-            padding: 0 !important;
-            margin: 0 !important;
-            min-height: 0 !important;
-          }
-
           /* 平滑锚点 */
           html { scroll-behavior: smooth; }
           [id] { scroll-margin-top: 72px; }
@@ -73,7 +64,14 @@ sections:
               white-space:normal;
             }
           }
-        </style>
+         /* 去掉第一个“style”区块的多余空白 */
+      #style {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    </style>
   ##################################### Bio ########################################################################
   - block: markdown
     id: bio
