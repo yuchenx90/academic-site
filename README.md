@@ -12,3 +12,4 @@ If want to allow google search:
 Change static/robots.txt to 
 User-agent: *
 Allow: /
+
