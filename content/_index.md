@@ -261,17 +261,19 @@ sections:
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4720595" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
-        <!-- Misselling -->
+
+        <!-- Media -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>Misselling in Financial Advice under Universal Banking.</strong> With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.
+            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  <strong><em>Revise and resubmit at the Journal of Financial and Quantitative Analysis.</em></strong>
           </p>
-          <p class="pub-abstract"> Outside the United States, universal banks command a large share of the retail financial advice market. Because these banks are vertically integrated with asymmetric profit margins across products, conflicts of interest originate organizationally rather than solely from individual advisor incentives. Exploiting performance contract architecture design and transaction data from a major Chinese bank, we show how banks translate profit objectives into advisor incentives through shadow commissions and career-based pressures. This generates episodic misselling spikes, intensifying when advisors face performance shortfalls, peer competition, or promotion opportunities, but deterred by client complaints and bank competition. Under pressure, advisors strategically target inexperienced clients, private banking clients, and male clients served by female advisors. We conclude that advisor independence is essential to break the profit-to-bias chain, and pressure-point monitoring is more effective than routine audits. We also discuss institutional obstacles to such reforms in bank-dominated systems.</p>
+          <p class="pub-abstract"> We examine whether and how firms leverage social media outlets to counteract the impact of negative news coverage in traditional media. Using a sample of Chinese public firms with established connections to social media outlets, we find that the connected outlets actively promote favorable narratives about the firms immediately following unfavorable coverage in traditional media. This effect is more pronounced for firms with stronger incentives to stabilize stock prices or when managers face greater career concerns. Moreover, while traditional media coverage tends to highlight firms’ short-term underperformance, connected social media outlets shift the focus toward their long-term development prospects. Our findings highlight the role of social media in the proactive corporate management of media narratives.</p>
           <p class="pub-links">
-            [<a href="paper/Misselling.pdf" target="_blank" rel="noopener">Paper</a>]
-            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5368923" target="_blank" rel="noopener">Link</a>]
+            [<a href="paper/Media.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198508" target="_blank" rel="noopener">Link</a>]
           </p>
-        </div>        
+        </div>
+
         <!-- Bird diversity -->
         <div class="pub-item">
           <p class="pub-ref">
@@ -283,18 +285,21 @@ sections:
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5023110" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
-        
-        <!-- Media -->
+
+        <!-- Misselling -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  <strong><em>Revise and resubmit at the Journal of Financial and Quantitative Analysis.</em></strong>
+            <strong>Misselling in Financial Advice under Universal Banking.</strong> With <em>Chenhao Wang</em> and <em>Ting Zhang</em>.
           </p>
-          <p class="pub-abstract"> We examine whether and how firms leverage social media outlets to counteract the impact of negative news coverage in traditional media. Using a sample of Chinese public firms with established connections to social media outlets, we find that the connected outlets actively promote favorable narratives about the firms immediately following unfavorable coverage in traditional media. This effect is more pronounced for firms with stronger incentives to stabilize stock prices or when managers face greater career concerns. Moreover, while traditional media coverage tends to highlight firms’ short-term underperformance, connected social media outlets shift the focus toward their long-term development prospects. Our findings highlight the role of social media in the proactive corporate management of media narratives.</p>
+          <p class="pub-abstract"> Outside the United States, universal banks command a large share of the retail financial advice market. Because these banks are vertically integrated with asymmetric profit margins across products, conflicts of interest originate organizationally rather than solely from individual advisor incentives. Exploiting performance contract architecture design and transaction data from a major Chinese bank, we show how banks translate profit objectives into advisor incentives through shadow commissions and career-based pressures. This generates episodic misselling spikes, intensifying when advisors face performance shortfalls, peer competition, or promotion opportunities, but deterred by client complaints and bank competition. Under pressure, advisors strategically target inexperienced clients, private banking clients, and male clients served by female advisors. We conclude that advisor independence is essential to break the profit-to-bias chain, and pressure-point monitoring is more effective than routine audits. We also discuss institutional obstacles to such reforms in bank-dominated systems.</p>
           <p class="pub-links">
-            [<a href="paper/Media.pdf" target="_blank" rel="noopener">Paper</a>]
-            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198508" target="_blank" rel="noopener">Link</a>]
+            [<a href="paper/Misselling.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5368923" target="_blank" rel="noopener">Link</a>]
           </p>
-        </div>  
+        </div>        
+
+        
+
 
         <!-- Momentum -->
         <div class="pub-item">
