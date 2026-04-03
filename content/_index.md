@@ -256,6 +256,7 @@ sections:
             <strong>Bonds of Love: Patriotism and the Rise of Modern Banks.</strong> With <em>Yuchen Sun</em> and <em>Wanda Wang</em>.
           </p>
           <p class="pub-abstract"> This study examines the role of patriotism in fostering public trust in modern banks when they emerged as a new form of financial institution. In China, the loss of Western financial support during WWI (1914) prompted the Republican government to issue patriotic domestic bonds to address fiscal shortfalls. Modern banks underwrote these bonds and expanded into regions with stronger patriotic sentiment to attract subscriptions. Public trust in these banks was formed as an extension of patriots’ state-building efforts within the framework of social contracts. Historical evidence suggests that patriotism similarly fueled early banking development in other countries.</p>
+          <strong>Selected conferences: AEA 2025.</strong>
           <p class="pub-links">
             [<a href="paper/Bonds of love.pdf" target="_blank" rel="noopener">Paper</a>]
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4720595" target="_blank" rel="noopener">Link</a>]
@@ -268,6 +269,7 @@ sections:
             <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  <strong><em>Revise and resubmit at the Journal of Financial and Quantitative Analysis.</em></strong>
           </p>
           <p class="pub-abstract"> We examine whether and how firms leverage social media outlets to counteract the impact of negative news coverage in traditional media. Using a sample of Chinese public firms with established connections to social media outlets, we find that the connected outlets actively promote favorable narratives about the firms immediately following unfavorable coverage in traditional media. This effect is more pronounced for firms with stronger incentives to stabilize stock prices or when managers face greater career concerns. Moreover, while traditional media coverage tends to highlight firms’ short-term underperformance, connected social media outlets shift the focus toward their long-term development prospects. Our findings highlight the role of social media in the proactive corporate management of media narratives.</p>
+           <strong>Selected conferences: CICF 2025.</strong>
           <p class="pub-links">
             [<a href="paper/Media.pdf" target="_blank" rel="noopener">Paper</a>]
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198508" target="_blank" rel="noopener">Link</a>]
@@ -280,6 +282,7 @@ sections:
             <strong>From Fines to Feathers: Enforcement Stringency, Protectionism, and Biodiversity.</strong> With <em>Panyu Li</em> and <em>Luping Yu</em>.
           </p>
           <p class="pub-abstract"> This study underscores the critical role of policy enforcement stringency in biodiversity conservation. Leveraging birdwatching records and the staggered institutional reforms that enhanced the independence of China’s Environmental Protection Bureaus (EPBs) between 2003 and 2019, we find that greater EPB autonomy increased bird species richness by 25–36% and bird abundance by 24–35%. The reforms substantially increased the frequency of environmental penalties, which imposed both direct fines and indirect reputational and financial costs on firms. In response, firms reduced emissions and increased green innovation. Strengthened enforcement had disproportionately large effects on privately owned enterprises (POEs), while state-owned enterprises (SOEs) continued to avoid regulatory scrutiny due to persistent central protectionism. Overall, our findings highlight the substantial ecological costs of weak enforcement arising from incomplete administrative independence.</p>
+          <strong>Selected conferences: AFA 2026, CICF 2026 (upcoming).</strong>
           <p class="pub-links">
             [<a href="paper/Birds.pdf" target="_blank" rel="noopener">Paper</a>]
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5023110" target="_blank" rel="noopener">Link</a>]
