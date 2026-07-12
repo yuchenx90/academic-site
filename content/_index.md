@@ -198,7 +198,7 @@ sections:
         <!-- Pub 1 -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  <strong><em>Conditional Accepted at the Journal of Financial and Quantitative Analysis.</em></strong>
+            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  < strong> < em> Conditionally accepted at the Journal of Financial and Quantitative Analysis.</em></strong>
           </p>
           <p class="pub-abstract"> We examine whether and how firms leverage social media outlets to counteract the impact of negative news coverage in traditional media. Using a sample of Chinese public firms with established connections to social media outlets, we find that the connected outlets actively promote favorable narratives about the firms immediately following unfavorable coverage in traditional media. This effect is more pronounced for firms with stronger incentives to stabilize stock prices or when managers face greater career concerns. Moreover, while traditional media coverage tends to highlight firms’ short-term underperformance, connected social media outlets shift the focus toward their long-term development prospects. Our findings highlight the role of social media in the proactive corporate management of media narratives.</p>
           <p><strong>Selected conferences: CICF 2025</strong></p>
