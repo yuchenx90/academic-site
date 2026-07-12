@@ -194,7 +194,22 @@ sections:
     content:
       title: "Publications"
       text: |-
+
         <!-- Pub 1 -->
+        <div class="pub-item">
+          <p class="pub-ref">
+            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  <strong><em>Conditional Accepted at the Journal of Financial and Quantitative Analysis.</em></strong>
+          </p>
+          <p class="pub-abstract"> We examine whether and how firms leverage social media outlets to counteract the impact of negative news coverage in traditional media. Using a sample of Chinese public firms with established connections to social media outlets, we find that the connected outlets actively promote favorable narratives about the firms immediately following unfavorable coverage in traditional media. This effect is more pronounced for firms with stronger incentives to stabilize stock prices or when managers face greater career concerns. Moreover, while traditional media coverage tends to highlight firms’ short-term underperformance, connected social media outlets shift the focus toward their long-term development prospects. Our findings highlight the role of social media in the proactive corporate management of media narratives.</p>
+          <p><strong>Selected conferences: CICF 2025</strong></p>
+          <p class="pub-links">
+            [<a href="paper/Media.pdf" target="_blank" rel="noopener">Paper</a>]
+            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198508" target="_blank" rel="noopener">Link</a>]
+          </p>
+        </div>
+
+
+        <!-- Pub 2 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
            1. The Allocation of Talent and Financial Development, 1897–1936. With
@@ -210,7 +225,8 @@ sections:
             [<a href="https://pubsonline.informs.org/doi/full/10.1287/mnsc.2023.00456" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
-        <!-- Pub 2 -->
+
+        <!-- Pub 3 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
           2. The Legal Origins of Financial Development: Evidence from the Shanghai Concessions.</strong>
@@ -226,8 +242,10 @@ sections:
             [<a href="paper/Shanghai_Appendix.pdf" target="_blank" rel="noopener">Appendix</a>]
             [<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jofi.13284" target="_blank" rel="noopener">Link</a>]
           </p>
+
+
         </div>
-        <!-- Pub 3 -->
+        <!-- Pub 4 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
            3. The Telegraph and Modern Banking Development, 1881–1936. With
@@ -263,18 +281,7 @@ sections:
           </p>
         </div>
 
-        <!-- Media -->
-        <div class="pub-item">
-          <p class="pub-ref">
-            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  <strong><em>Revise and resubmit at the Journal of Financial and Quantitative Analysis.</em></strong>
-          </p>
-          <p class="pub-abstract"> We examine whether and how firms leverage social media outlets to counteract the impact of negative news coverage in traditional media. Using a sample of Chinese public firms with established connections to social media outlets, we find that the connected outlets actively promote favorable narratives about the firms immediately following unfavorable coverage in traditional media. This effect is more pronounced for firms with stronger incentives to stabilize stock prices or when managers face greater career concerns. Moreover, while traditional media coverage tends to highlight firms’ short-term underperformance, connected social media outlets shift the focus toward their long-term development prospects. Our findings highlight the role of social media in the proactive corporate management of media narratives.</p>
-          <p><strong>Selected conferences: CICF 2025</strong></p>
-          <p class="pub-links">
-            [<a href="paper/Media.pdf" target="_blank" rel="noopener">Paper</a>]
-            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198508" target="_blank" rel="noopener">Link</a>]
-          </p>
-        </div>
+
 
         <!-- Bird diversity -->
         <div class="pub-item">
