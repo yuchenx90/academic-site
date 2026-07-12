@@ -199,7 +199,7 @@ sections:
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
            1. Connected Social Media. With
-            <a href="https://www.researchgate.net/profile/Zhiqian-Jiang" target="_blank" rel="noopener">Zhiqian Jiang</a>,
+            <a>Zhiqian Jiang</a>,
             <a href="https://sites.google.com/site/tonybaixiaoliu/" target="_blank" rel="noopener">Baixiao Liu</a>, and
             <a href="https://sites.google.com/site/bohuizhang/" target="_blank" rel="noopener">Bohui Zhang</a>.
             Conditionally accepted at the <strong><em>Journal of Financial and Quantitative Analysis</em></strong>.
