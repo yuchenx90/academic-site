@@ -198,10 +198,10 @@ sections:
         <!-- Pub 1 -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>Fight or Flee? The Role of Firms’ Connected Social Media Outlets.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  < strong> < em> Conditionally accepted at the Journal of Financial and Quantitative Analysis.</em></strong>
+            <strong>Connected Social Media.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  < strong> < em> Conditionally accepted at the Journal of Financial and Quantitative Analysis.</em></strong>
           </p>
-          <p class="pub-abstract"> We examine whether and how firms leverage social media outlets to counteract the impact of negative news coverage in traditional media. Using a sample of Chinese public firms with established connections to social media outlets, we find that the connected outlets actively promote favorable narratives about the firms immediately following unfavorable coverage in traditional media. This effect is more pronounced for firms with stronger incentives to stabilize stock prices or when managers face greater career concerns. Moreover, while traditional media coverage tends to highlight firms’ short-term underperformance, connected social media outlets shift the focus toward their long-term development prospects. Our findings highlight the role of social media in the proactive corporate management of media narratives.</p>
-          <p><strong>Selected conferences: CICF 2025</strong></p>
+          <p class="pub-abstract"> We examine whether and how firms use connected social media outlets to counteract negative coverage in traditional media. Employing a sample of Chinese listed firms with ties to social media outlets, we find that connected outlets portray firms more favorably than unconnected ones. Following unfavorable coverage in traditional media, connected outlets shift attention toward long-term prospects and promote favorable narratives, consistent with an optimism-shifting mechanism. The effect is more pronounced when firms have stronger incentives to stabilize stock prices and when managers face heightened career concerns. Our findings highlight the role of connected social media outlets in shaping corporate narratives.</p>
+          <p><strong>Selected conferences: CICF 2025;EFMA 2025;CFRC 2025</strong></p>
           <p class="pub-links">
             [<a href="paper/Media.pdf" target="_blank" rel="noopener">Paper</a>]
             [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198508" target="_blank" rel="noopener">Link</a>]
