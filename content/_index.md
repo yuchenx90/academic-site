@@ -202,7 +202,7 @@ sections:
             <a href="https://www.researchgate.net/profile/Zhiqian-Jiang" target="_blank" rel="noopener">Zhiqian Jiang</a>,
             <a href="https://sites.google.com/site/tonybaixiaoliu/" target="_blank" rel="noopener">Baixiao Liu</a>, and
             <a href="https://sites.google.com/site/bohuizhang/" target="_blank" rel="noopener">Bohui Zhang</a>.
-            Conditionally accepted at the <strong><em>Journal of Financial and Quantitative Analysis</em></strong>
+            Conditionally accepted at the <strong><em>Journal of Financial and Quantitative Analysis</em></strong>.
           </p>
           <p class="pub-abstract"> We examine whether and how firms use connected social media outlets to counteract negative coverage in traditional media. Employing a sample of Chinese listed firms with ties to social media outlets, we find that connected outlets portray firms more favorably than unconnected ones. Following unfavorable coverage in traditional media, connected outlets shift attention toward long-term prospects and promote favorable narratives, consistent with an optimism-shifting mechanism. The effect is more pronounced when firms have stronger incentives to stabilize stock prices and when managers face heightened career concerns. Our findings highlight the role of connected social media outlets in shaping corporate narratives.</p>
           <p><strong>Selected conferences: CICF 2025;EFMA 2025;CFRC 2025</strong></p>
@@ -220,7 +220,7 @@ sections:
             <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>,
             <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>, and
             <a href="https://scholar.google.com/citations?user=wL_q58YAAAAJ&hl=en" target="_blank" rel="noopener">Yuchen Sun</a>.
-            <strong><em>Management Science</em></strong>，2025
+            <strong><em>Management Science</em></strong>, 2025
           </p>
           <p class="pub-abstract">We examine how the supply of talent affected financial development based on an experiment that abruptly changed the allocation of talent in historical China. Under the meritocratic civil examination system, government service was the main employment for the Chinese intellectuals. The abolition of this system in 1905 reduced the status and wealth attached to government service, which led the intellectuals to turn to modern banking as a high-status sector of employment. We find that regions where there were more candidates for the civil examination produced more financial professionals after 1905, which translated to a greater development of modern banking.</p>
           <p class="pub-links">
@@ -237,7 +237,7 @@ sections:
           <a href="https://www.hoover.org/profiles/ross-levine" target="_blank" rel="noopener">Ross Levine</a>,
           <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>, and
           <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>.
-          <strong><em>The Journal of Finance</em></strong>，2023
+          <strong><em>The Journal of Finance</em></strong>, 2023
           </p>  
           <p class="pub-abstract">The primary challenge to assessing the legal origins view of comparative financial development is identifying exogenous changes in legal systems. We assemble new data on Shanghai's British and French concessions between 1845 and 1936. Two regime changes altered British and French legal jurisdiction over their respective concessions. By examining the changing application of different legal traditions to adjacent neighborhoods within the same city and controlling for military, economic, and political characteristics, we offer new evidence consistent with the legal origins view: the financial development advantage in the British concession widened after Western legal jurisdiction intensified and narrowed after it abated.</p>
           <p class="pub-links">
@@ -255,7 +255,7 @@ sections:
             <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>,
             <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>, and
             <a href="https://scholar.google.com/citations?user=wL_q58YAAAAJ&hl=en" target="_blank" rel="noopener">Yuchen Sun</a>.
-            <strong><em>Journal of Financial Economics</em></strong> ，2021 
+            <strong><em>Journal of Financial Economics</em></strong>, 2021 
           </p>  
           <p class="pub-abstract">The telegraph was introduced to China in the late 19th century, a time when China also saw the rise of modern banks. Based on this historical context, this paper documents the importance of information technology in banking development. We construct a data set on the distributions of telegraph stations and banks across 287 prefectures between 1881 and 1936. The results show that the telegraph significantly expanded banks’ branch networks in terms of both number and geographic scope. The effect of the telegraph remains robust when we instrument it using proximity to the early military telegraph trunk.</p>
           <p class="pub-links">
