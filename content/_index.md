@@ -197,8 +197,12 @@ sections:
 
         <!-- Pub 1 -->
         <div class="pub-item">
-          <p class="pub-ref">
-            <strong>Connected Social Media.</strong> With <em>Zhiqian Jiang</em>, <em>Baixiao Liu</em> and <em>Bohui Zhang</em>.  < strong> < em> Conditionally accepted at the Journal of Financial and Quantitative Analysis.</em></strong>
+         <p class="pub-ref" style="margin:0 0 4px;">
+           1. Connected Social Media. With
+            <a href="https://www.researchgate.net/profile/Zhiqian-Jiang" target="_blank" rel="noopener">Zhiqian Jiang</a>,
+            <a href="https://sites.google.com/site/tonybaixiaoliu/" target="_blank" rel="noopener">Baixiao Liu</a>, and
+            <a href="https://sites.google.com/site/bohuizhang/" target="_blank" rel="noopener">Bohui Zhang</a>.
+            Conditionally accepted at the <strong><em>Journal of Financial and Quantitative Analysis</em></strong>
           </p>
           <p class="pub-abstract"> We examine whether and how firms use connected social media outlets to counteract negative coverage in traditional media. Employing a sample of Chinese listed firms with ties to social media outlets, we find that connected outlets portray firms more favorably than unconnected ones. Following unfavorable coverage in traditional media, connected outlets shift attention toward long-term prospects and promote favorable narratives, consistent with an optimism-shifting mechanism. The effect is more pronounced when firms have stronger incentives to stabilize stock prices and when managers face heightened career concerns. Our findings highlight the role of connected social media outlets in shaping corporate narratives.</p>
           <p><strong>Selected conferences: CICF 2025;EFMA 2025;CFRC 2025</strong></p>
@@ -212,7 +216,7 @@ sections:
         <!-- Pub 2 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
-           1. The Allocation of Talent and Financial Development, 1897–1936. With
+           2. The Allocation of Talent and Financial Development, 1897–1936. With
             <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>,
             <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>, and
             <a href="https://scholar.google.com/citations?user=wL_q58YAAAAJ&hl=en" target="_blank" rel="noopener">Yuchen Sun</a>.
@@ -229,8 +233,7 @@ sections:
         <!-- Pub 3 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
-          2. The Legal Origins of Financial Development: Evidence from the Shanghai Concessions.</strong>
-          With
+          3. The Legal Origins of Financial Development: Evidence from the Shanghai Concessions. With
           <a href="https://www.hoover.org/profiles/ross-levine" target="_blank" rel="noopener">Ross Levine</a>,
           <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>, and
           <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>.
@@ -248,7 +251,7 @@ sections:
         <!-- Pub 4 -->
         <div class="pub-item">
          <p class="pub-ref" style="margin:0 0 4px;">
-           3. The Telegraph and Modern Banking Development, 1881–1936. With
+           4. The Telegraph and Modern Banking Development, 1881–1936. With
             <a href="https://www.hkubs.hku.hk/people/chen-lin/" target="_blank" rel="noopener">Chen Lin</a>,
             <a href="https://chichengma.weebly.com/" target="_blank" rel="noopener">Chicheng Ma</a>, and
             <a href="https://scholar.google.com/citations?user=wL_q58YAAAAJ&hl=en" target="_blank" rel="noopener">Yuchen Sun</a>.
