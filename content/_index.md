@@ -224,8 +224,8 @@ sections:
           </p>
           <p class="pub-abstract">We examine how the supply of talent affected financial development based on an experiment that abruptly changed the allocation of talent in historical China. Under the meritocratic civil examination system, government service was the main employment for the Chinese intellectuals. The abolition of this system in 1905 reduced the status and wealth attached to government service, which led the intellectuals to turn to modern banking as a high-status sector of employment. We find that regions where there were more candidates for the civil examination produced more financial professionals after 1905, which translated to a greater development of modern banking.</p>
           <p class="pub-links">
-            [<a href="paper/Keju.pdf" target="_blank" rel="noopener">Paper</a>]
-            [<a href="paper/Keju_Appendix.pdf" target="_blank" rel="noopener">Appendix</a>]
+#            [<a href="paper/Keju.pdf" target="_blank" rel="noopener">Paper</a>]
+#           [<a href="paper/Keju_Appendix.pdf" target="_blank" rel="noopener">Appendix</a>]
             [<a href="https://pubsonline.informs.org/doi/full/10.1287/mnsc.2023.00456" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
@@ -241,8 +241,8 @@ sections:
           </p>  
           <p class="pub-abstract">The primary challenge to assessing the legal origins view of comparative financial development is identifying exogenous changes in legal systems. We assemble new data on Shanghai's British and French concessions between 1845 and 1936. Two regime changes altered British and French legal jurisdiction over their respective concessions. By examining the changing application of different legal traditions to adjacent neighborhoods within the same city and controlling for military, economic, and political characteristics, we offer new evidence consistent with the legal origins view: the financial development advantage in the British concession widened after Western legal jurisdiction intensified and narrowed after it abated.</p>
           <p class="pub-links">
-            [<a href="paper/Shanghai.pdf" target="_blank" rel="noopener">Paper</a>]
-            [<a href="paper/Shanghai_Appendix.pdf" target="_blank" rel="noopener">Appendix</a>]
+#            [<a href="paper/Shanghai.pdf" target="_blank" rel="noopener">Paper</a>]
+#            [<a href="paper/Shanghai_Appendix.pdf" target="_blank" rel="noopener">Appendix</a>]
             [<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jofi.13284" target="_blank" rel="noopener">Link</a>]
           </p>
 
@@ -259,8 +259,8 @@ sections:
           </p>  
           <p class="pub-abstract">The telegraph was introduced to China in the late 19th century, a time when China also saw the rise of modern banks. Based on this historical context, this paper documents the importance of information technology in banking development. We construct a data set on the distributions of telegraph stations and banks across 287 prefectures between 1881 and 1936. The results show that the telegraph significantly expanded banks’ branch networks in terms of both number and geographic scope. The effect of the telegraph remains robust when we instrument it using proximity to the early military telegraph trunk.</p>
           <p class="pub-links">
-            [<a href="paper/Telegraph.pdf" target="_blank" rel="noopener">Paper</a>]
-            [<a href="paper/Telegraph_Appendix.pdf" target="_blank" rel="noopener">Appendix</a>]
+#            [<a href="paper/Telegraph.pdf" target="_blank" rel="noopener">Paper</a>]
+#            [<a href="paper/Telegraph_Appendix.pdf" target="_blank" rel="noopener">Appendix</a>]
             [<a href="https://www.sciencedirect.com/science/article/pii/S0304405X21001380" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
