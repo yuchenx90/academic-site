@@ -107,7 +107,7 @@ sections:
             </figcaption>
           </figure>
           <div style="flex:1; min-width:280px;">
-            Dr. Yuchen Xu is an Assistant Professor (Senior Lecturer) in Finance at UNSW Business School. Previously, she was an Assistant Professor at Peking University HSBC Business School. Dr. Xu completed her undergraduate and postgraduate studies in Paris, where she received dual master's degrees in Financial Engineering (2014) and Economic Psychology (2015). After that, she obtained her Ph.D in Finance from the University of Hong Kong (2020). Her research interests span across quantitative financial history and empirical corporate finance. She places special emphasis on identifying the foundational factors that influence the enduring development of finance, in particular at its genesis. Her findings have been published in prestigious international journals, including the <strong><em>Journal of Finance</em></strong>, the <strong><em>Journal of Financial Economics</em></strong>, <strong><em>Management Science</em></strong>, and <strong><em>Journal of Financial and Quantitative Analysis</em></strong>.
+            Dr. Yuchen Xu is an Assistant Professor (Senior Lecturer) in Finance at UNSW Business School. Previously, she was an Assistant Professor at Peking University HSBC Business School. Dr. Xu completed her undergraduate and postgraduate studies in Paris, where she received dual master's degrees in Financial Engineering (2014) and Economic Psychology (2015). After that, she obtained her Ph.D. in Finance from the University of Hong Kong (2020). Her research interests span across quantitative financial history and empirical corporate finance. She places special emphasis on identifying the foundational factors that influence the enduring development of finance, in particular at its genesis. Her findings have been published in prestigious international journals, including the <strong><em>Journal of Finance</em></strong>, <strong><em>Journal of Financial Economics</em></strong>, <strong><em>Management Science</em></strong>, and <strong><em>Journal of Financial and Quantitative Analysis</em></strong>.
           <div style="display:flex; gap:24px; flex-wrap:wrap; align-items:center; margin-top:16px;">
             <span style="display:inline-flex; align-items:center; gap:6px;">
               <span aria-hidden="true" style="display:inline-block; vertical-align:-0.15em;">
@@ -335,15 +335,15 @@ sections:
         <!-- Others -->
         <div class="pub-item">
           <p class="pub-ref">
-            <strong>Selected working in progress...</strong>
+            <strong>Selected work in progress.</strong>
           </p>
           <p class="pub-abstract">
-          Revolution fund raising.<br>
+          Rethorics and Revolutionary Fundraising.<br>
           Ethnic Conflict and the Transformation of Gender Norms.<br>
           Jewish diaspora and Shanghai's financial markets, 1930s.<br>
           Vietnam War and the Trade War.<br>
           Foreign Investment and Cross-country Input-Output Linkages.<br>
-          Silver flow and trade shock, 1860-1910.<br>
+          Silver Flows and Trade Shocks, 1860-1910.<br>
           Information asymmetry and Fintech adoption.<br>
           Public gallery and Liquidity, 1970s HKSE.<br>
           </p>
@@ -398,7 +398,7 @@ sections:
             <div class="awards-item row-2col">
               <div class="awards-left">
                 <div class="awards-title">UNSW Dean’s Research Fellowship</div>
-                <div class="awards-sub">Grant: 10,000 AUD per year</div>
+                <div class="awards-sub">Grant amount: 10,000 AUD per year</div>
               </div>
               <div class="awards-right">2025-2026</div>
             </div>
@@ -412,21 +412,21 @@ sections:
             <div class="awards-item row-2col">
               <div class="awards-left">
                 <div class="awards-title">Young Scientists Funds, National Natural Science Foundation of China (NSFC)</div>
-                <div class="awards-sub">Principal Investigator; Grant: 300,000 RMB</div>
+                <div class="awards-sub">Principal Investigator; Grant amount: 300,000 RMB</div>
               </div>
               <div class="awards-right">2022</div>
             </div>
             <div class="awards-item row-2col">
               <div class="awards-left">
                 <div class="awards-title">NSFC–STINT Joint Research Program</div>
-                <div class="awards-sub">Participant; Grant: 400,000 RMB (NSFC) and 599,200 SEK (STINT)</div>
+                <div class="awards-sub">Participant; Grant amount: 400,000 RMB (NSFC) and 599,200 SEK (STINT)</div>
               </div>
               <div class="awards-right">2022</div>
             </div>
             <div class="awards-item row-2col">
               <div class="awards-left">
                 <div class="awards-title">General Program of NSFC</div>
-                <div class="awards-sub">Participant; Grant: 300,000 RMB</div>
+                <div class="awards-sub">Participant; Grant amount: 300,000 RMB</div>
               </div>
               <div class="awards-right">2021</div>
             </div>
