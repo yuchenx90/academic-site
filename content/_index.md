@@ -115,7 +115,7 @@ sections:
                   <path d="M12 3v10.586l3.293-3.293 1.414 1.414L12 17.414l-4.707-4.707 1.414-1.414L11 13.586V3h2zM5 19h14v2H5z"/>
                 </svg>
               </span>
-              <a href="cv/CV_yuchen.pdf" target="_blank" rel="noopener"
+              <a href="CV_yuchen.pdf" target="_blank" rel="noopener"
                  style="color:#555; text-decoration-color:#bbb;">Download my CV</a>
             </span>
             <a href="https://www.unsw.edu.au/staff/yuchen-xu" target="_blank" rel="noopener"
