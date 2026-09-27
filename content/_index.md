@@ -386,6 +386,14 @@ sections:
     content:
       title: "Grants & Awards"
       text: |-
+          <div class="awards-item row-2col">
+            <div class="awards-left">
+              <div class="awards-title">General Program of NSFC</div>
+              <div class="awards-sub">Research on the Theory, Measurement, Transmission, and Economic Effects of Macroeconomic Narratives</div>
+              <div class="awards-sub">Participant; Grant amount: 300,000 RMB</div>
+            </div>
+            <div class="awards-right">2026</div>
+          </div>
           <div class="awards">
             <div class="awards-item row-2col">
               <div class="awards-left">
