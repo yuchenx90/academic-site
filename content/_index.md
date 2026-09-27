@@ -207,8 +207,7 @@ sections:
           <p class="pub-abstract"> We examine whether and how firms use connected social media outlets to counteract negative coverage in traditional media. Employing a sample of Chinese listed firms with ties to social media outlets, we find that connected outlets portray firms more favorably than unconnected ones. Following unfavorable coverage in traditional media, connected outlets shift attention toward long-term prospects and promote favorable narratives, consistent with an optimism-shifting mechanism. The effect is more pronounced when firms have stronger incentives to stabilize stock prices and when managers face heightened career concerns. Our findings highlight the role of connected social media outlets in shaping corporate narratives.</p>
           <p><strong>Selected conferences: CICF 2025; EFMA 2025; CFRC 2025</strong></p>
           <p class="pub-links">
-            [<a href="paper/Media.pdf" target="_blank" rel="noopener">Paper</a>]
-            [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5198508" target="_blank" rel="noopener">Link</a>]
+            [<a href="https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/connected-social-media/EFD713AF858620A9F98BC26F031E0C03" target="_blank" rel="noopener">Link</a>]
           </p>
         </div>
 
